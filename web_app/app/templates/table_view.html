@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Просмотр таблицы: {{ display_name }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            padding: 20px;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            color: #333;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .back-btn:hover {
+            background: #545b62;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #e9ecef;
+        }
+        .empty-message {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Таблица: {{ display_name }} ({{ records|length }} записей)</h1>
+        <a href="/dashboard" class="back-btn">← Назад к панели управления</a>
+    </div>
+
+    {% if records %}
+        <table>
+            <thead>
+                <tr>
+                    {% for key in records[0].__dict__.keys() %}
+                {% if not key.startswith('_') and key != 'password' and key != 'hashed_password' %}
+                    <th>{{ key }}</th>
+                {% endif %}
+            {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in records %}
+                <tr>
+                    {% for value in record.__dict__.values() %}
+                {% set key = record.__dict__.keys()[loop.index0] %}
+                {% if not key.startswith('_') and key != 'password' and key != 'hashed_password' %}
+                    <td>
+                        {% if value is none %}
+                            <em>NULL</em>
+                {% elif key == 'embedding' and value %}
+                    [{{ value|join(', ') }}]
+                {% elif key in ['created_at', 'publish_date', 'generated_at', 'start_date', 'end_date'] %}
+            {{ value.strftime('%Y-%m-%d %H:%M:%S') if value else 'N/A' }}
+                {% else %}
+            {{ value }}
+                {% endif %}
+            </td>
+                {% endif %}
+            {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <div class="empty-message">
+            В этой таблице пока нет данных.
+        </div>
+    {% endif %}
+</body>
+</html>

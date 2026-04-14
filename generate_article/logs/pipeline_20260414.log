@@ -1,0 +1,29 @@
+2026-04-14 23:26:51,105 - src.config.logging - INFO - Подключение к PostgreSQL: postgresql://favot_user:favot_pass@localhost:5432/favot
+2026-04-14 23:26:51,245 - src.config.logging - INFO - Все таблицы успешно созданы в PostgreSQL!
+2026-04-14 23:26:51,247 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-14 23:26:51,247 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-14 23:26:53,957 - src.generation.llm_client - ERROR - Ошибка при обращении к LLM: 404 Client Error: Not Found for url: http://95.164.92.12:11434/api/generate
+2026-04-14 23:29:37,007 - src.config.logging - INFO - Подключение к PostgreSQL: postgresql://favot_user:favot_pass@localhost:5432/favot
+2026-04-14 23:29:37,125 - src.config.logging - INFO - Все таблицы успешно созданы в PostgreSQL!
+2026-04-14 23:29:37,127 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-14 23:29:37,127 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-14 23:30:39,697 - src.generation.llm_client - ERROR - Ошибка при обращении к LLM: HTTPConnectionPool(host='95.164.92.12', port=11434): Read timed out. (read timeout=60)
+2026-04-14 23:32:26,606 - src.config.logging - INFO - Подключение к PostgreSQL: postgresql://favot_user:favot_pass@localhost:5432/favot
+2026-04-14 23:32:26,711 - src.config.logging - INFO - Все таблицы успешно созданы в PostgreSQL!
+2026-04-14 23:32:26,725 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-14 23:32:26,725 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-14 23:33:20,383 - src.config.logging - INFO - Успешно сгенерирована и сохранена статья: Заголовок: 51 Outrageous Promo Codes for April 2026: From VPNs to Home Decor
+2026-04-14 23:33:20,383 - src.config.logging - INFO - Успешно сгенерирована статья:
+2026-04-14 23:33:20,387 - src.config.logging - INFO - Заголовок: Заголовок: 51 Outrageous Promo Codes for April 2026: From VPNs to Home Decor
+2026-04-14 23:33:20,388 - src.config.logging - INFO - Содержание: Содержание:
+In the latest trend of "promo codes top," we are seeing a surge in interest among users looking for extra discounts and deals. One such promo code that has garnered significant attention i...
+2026-04-14 23:33:20,388 - src.config.logging - INFO - ID: 1
+2026-04-14 23:37:04,712 - src.config.logging - INFO - Подключение к PostgreSQL: postgresql://favot_user:favot_pass@localhost:5432/favot
+2026-04-14 23:37:04,826 - src.config.logging - INFO - Все таблицы успешно созданы в PostgreSQL!
+2026-04-14 23:37:04,829 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-14 23:37:04,829 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-14 23:38:20,389 - src.config.logging - INFO - Успешно сгенерирована и сохранена статья: Заголовок: Top Promo Codes for April 2026 - лучшие настройки для обменного интернета
+2026-04-14 23:38:20,390 - src.config.logging - INFO - Успешно сгенерирована статья:
+2026-04-14 23:38:20,395 - src.config.logging - INFO - Заголовок: Заголовок: Top Promo Codes for April 2026 - лучшие настройки для обменного интернета
+2026-04-14 23:38:20,395 - src.config.logging - INFO - Содержание: Содержание: Статьи о тренде "promo codes top" охватывают актуальные рекомендации для обменных сетей и мобильных платформ. Основная тема - популярные предложения с 1 апреля текущего года, такие как Sur...
+2026-04-14 23:38:20,396 - src.config.logging - INFO - ID: 2

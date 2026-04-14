@@ -1,30 +1,57 @@
-{% extends "base.html" %}
-
-{% block title %}Панель управления{% endblock %}
-
-{% block content %}
-<div class="dashboard">
-    <h1>Добро пожаловать!</h1>
-    <a href="/logout">Выйти</a>
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Заголовок</th>
-                <th>Описание</th>
-                <th>Дата создания</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for record in records %}
-            <tr>
-                <td>{{ record.id }}</td>
-                <td>{{ record.title }}</td>
-                <td>{{ record.description }}</td>
-                <td>{{ record.created_at }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-</div>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Панель управления</title>
+    <style>
+        .table-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .table-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .table-button:hover {
+            background: #0056b3;
+        }
+        .header {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .logout-btn {
+            float: right;
+            background: #dc3545;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        .logout-btn:hover {
+            background: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Панель управления базой данных</h1>
+        <a href="/logout" class="logout-btn">Выйти</a>
+    </div>
+    <div class="table-buttons">
+        {% for table in tables %}
+            <a href="{{ table.route }}" class="table-button">
+                {{ table.display }}
+            </a>
+        {% endfor %}
+    </div>
+</body>
+</html>

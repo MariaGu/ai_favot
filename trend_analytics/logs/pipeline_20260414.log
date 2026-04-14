@@ -1,0 +1,10 @@
+2026-04-14 22:34:46,720 - src.config.logging - INFO - Подключение к PostgreSQL: postgresql://favot_user:favot_pass@localhost:5432/favot
+2026-04-14 22:34:46,870 - src.config.logging - INFO - Все таблицы успешно созданы в PostgreSQL!
+2026-04-14 22:34:46,870 - src.config.logging - INFO - Запуск приложения анализа трендов с PostgreSQL
+2026-04-14 22:34:46,870 - src.config.logging - INFO - Инициализация анализатора трендов...
+2026-04-14 22:34:46,873 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-14 22:34:46,873 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-04-14 22:34:50,468 - src.config.logging - INFO - Инициализирован TrendClusterAnalyzer с активной сессией PostgreSQL
+2026-04-14 22:34:50,468 - src.config.logging - INFO - Модель sentence-transformers загружена
+2026-04-14 22:34:50,608 - src.config.logging - INFO - Число статей для анализа: 298
+2026-04-14 22:35:00,418 - src.config.logging - INFO - Анализ завершён. Найдено 28 трендов

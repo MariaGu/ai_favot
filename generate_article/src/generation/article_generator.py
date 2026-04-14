@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 
 from src.generation.data_fetcher import DataFetcher
 from src.generation.rag_processor import RAGProcessor
-from src.generation.llm_generator import LLMGenerator
+from src.generation.llm_client import RemoteLLMClient  # Импортируем новый клиент
 from src.generation.config import RAG_CONFIG, PROMPT_TEMPLATE
 from src.generation.utils import truncate_text
 from src.database.models import TrendCluster, GeneratedArticle
@@ -19,7 +19,12 @@ class RAGArticleGenerator:
         self.data_fetcher = DataFetcher(db_session)
         self.embedding_model = SentenceTransformer(RAG_CONFIG['embedding_model'])
         self.rag_processor = RAGProcessor(self.embedding_model)
-        self.llm_generator = LLMGenerator()
+
+        # Инициализируем клиент для удалённого LLM
+        self.llm_generator = RemoteLLMClient(
+            base_url="http://95.164.92.12:11434",
+            model="qwen2.5:0.5b"
+        )
 
     def generate_trend_based_article(self) -> Optional[GeneratedArticle]:
         """Основной метод: генерирует статью на основе топ‑1 тренда с использованием RAG."""
@@ -78,7 +83,7 @@ class RAGArticleGenerator:
             'generation_timestamp': datetime.now().isoformat(),
             'cluster_id': cluster.id,
             'cluster_name': cluster.name,
-            'model_used': RAG_CONFIG['llm_model'],
+            'model_used': "qwen2.5:0.5b",  # Обновляем имя модели
             'embedding_model': RAG_CONFIG['embedding_model'],
             'article_length': len(content.split()),
             'similarity_score': RAG_CONFIG['generated_article_similarity']

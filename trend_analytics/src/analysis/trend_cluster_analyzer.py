@@ -141,7 +141,7 @@ class TrendClusterAnalyzer:
 
     def _perform_clustering(self, embeddings: np.ndarray) -> np.ndarray:
         """Выполняет кластеризацию с использованием DBSCAN."""
-        logger.debug(f"Запуск кластеризации DBSCAN для {embeddings.shape[0]} векторов")
+        logger.info(f"Запуск кластеризации DBSCAN для {embeddings.shape[0]} векторов")
 
         clustering = DBSCAN(
             eps=0.5,
@@ -172,7 +172,7 @@ class TrendClusterAnalyzer:
         )
         self.db_session.add(analysis)
         self.db_session.flush()
-        logger.debug(f"Создана запись анализа с ID: {analysis.id}")
+        logger.info(f"Создана запись анализа с ID: {analysis.id}")
         return analysis.id
 
     def _create_and_save_clusters(self, cluster_labels, articles, embeddings, analysis_id, hours):
