@@ -1,0 +1,31 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: favot-postgres
+    environment:
+      POSTGRES_DB: favot
+      POSTGRES_USER: favot_user
+      POSTGRES_PASSWORD: favot_pass
+      # Дополнительные настройки для лучшей производительности
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/init_database.sql:/docker-entrypoint-initdb.d/init_database.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U favot_user -d favot"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - favot-network
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  favot-network:
+    driver: bridge

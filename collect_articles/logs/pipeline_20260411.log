@@ -1,0 +1,146 @@
+2026-04-11 14:00:53,921 - src.config.logging - INFO - Успешное подключение к PostgreSQL
+2026-04-11 14:00:53,921 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-11 14:00:53,921 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-mpnet-base-v2
+2026-04-11 14:00:54,418 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:54,437 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-11 14:00:54,595 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:54,629 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-11 14:00:54,793 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:54,816 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-11 14:00:54,963 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:54,991 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/README.md "HTTP/1.1 200 OK"
+2026-04-11 14:00:55,147 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:55,147 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-11 14:00:55,182 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-11 14:00:55,334 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:55,356 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-11 14:00:55,513 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-11 14:00:55,662 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:55,695 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-11 14:00:56,140 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:56,164 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-11 14:00:56,316 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:56,339 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-11 14:00:56,496 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-11 14:00:56,647 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-11 14:00:59,018 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-11 14:00:59,196 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-11 14:00:59,215 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-11 14:00:59,380 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-11 14:00:59,383 - src.config.logging - INFO - Модель эмбеддингов загружена: paraphrase-multilingual-mpnet-base-v2
+2026-04-11 14:00:59,391 - src.config.logging - INFO - Проверка таблиц завершена
+2026-04-11 14:00:59,395 - src.config.logging - INFO - Таблица data_sources уже содержит 38 записей. Пропускаем заполнение тестовыми данными.
+2026-04-11 14:00:59,395 - src.config.logging - INFO - Получаем активные источники данных из БД...
+2026-04-11 14:00:59,401 - src.config.logging - INFO - Получено 38 активных источников
+2026-04-11 14:00:59,401 - src.config.logging - INFO - Собираем ссылки из источников...
+2026-04-11 14:00:59,401 - src.config.logging - INFO - Обрабатываем источник: Mephi (website)
+2026-04-11 14:01:00,415 - src.config.logging - INFO - Собрано 0 ссылок с сайта: https://mephi.ru/
+2026-04-11 14:01:00,415 - src.config.logging - INFO - Обрабатываем источник: New York Times (website)
+2026-04-11 14:01:01,065 - src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.nytimes.com
+2026-04-11 14:01:01,065 - src.config.logging - INFO - Обрабатываем источник: Woman (website)
+2026-04-11 14:01:01,628 - src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.woman.ru
+2026-04-11 14:01:01,628 - src.config.logging - INFO - Обрабатываем источник: Wired RSS (rss)
+2026-04-11 14:01:01,815 - src.config.logging - INFO - Собрано 50 ссылок из RSS: https://www.wired.com/feed/rss
+2026-04-11 14:01:01,815 - src.config.logging - INFO - Обрабатываем источник: Medium Tech (rss)
+2026-04-11 14:01:21,080 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://medium.com/tag/technology/feed
+2026-04-11 14:01:21,080 - src.config.logging - INFO - Обрабатываем источник: The Guardian (website)
+2026-04-11 14:01:22,101 - src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.theguardian.com
+2026-04-11 14:01:22,102 - src.config.logging - INFO - Обрабатываем источник: BBC News (website)
+2026-04-11 14:01:27,176 - src.config.logging - ERROR - Ошибка сбора с сайта https://www.bbc.com/news: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2026-04-11 14:01:27,177 - src.config.logging - INFO - Обрабатываем источник: Habr RSS (rss)
+2026-04-11 14:01:27,195 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://habr.com/ru/rss/all/
+2026-04-11 14:01:27,195 - src.config.logging - INFO - Обрабатываем источник: TechCrunch RSS (rss)
+2026-04-11 14:01:27,213 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://techcrunch.com/feed/
+2026-04-11 14:01:27,213 - src.config.logging - INFO - Обрабатываем источник: Хабр (rss)
+2026-04-11 14:01:27,232 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://habr.com/ru/rss/all/all/
+2026-04-11 14:01:27,232 - src.config.logging - INFO - Обрабатываем источник: CNews (rss)
+2026-04-11 14:01:27,249 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.cnews.ru/inc/rss/news.xml
+2026-04-11 14:01:27,249 - src.config.logging - INFO - Обрабатываем источник: 3DNews (rss)
+2026-04-11 14:01:27,264 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://3dnews.ru/news/rss/
+2026-04-11 14:01:27,264 - src.config.logging - INFO - Обрабатываем источник: BBC News World (rss)
+2026-04-11 14:01:27,279 - src.config.logging - INFO - Собрано 0 ссылок из RSS: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-04-11 14:01:27,280 - src.config.logging - INFO - Обрабатываем источник: BBC News (rss)
+2026-04-11 14:01:27,298 - src.config.logging - INFO - Собрано 0 ссылок из RSS: http://feeds.bbci.co.uk/news/rss.xml
+2026-04-11 14:01:27,298 - src.config.logging - INFO - Обрабатываем источник: Reuters World (rss)
+2026-04-11 14:01:27,320 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.reutersagency.com/feed/?best-topics=world&post_type=best
+2026-04-11 14:01:27,320 - src.config.logging - INFO - Обрабатываем источник: Al Jazeera (rss)
+2026-04-11 14:01:27,340 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.aljazeera.com/xml/rss/all.xml
+2026-04-11 14:01:27,341 - src.config.logging - INFO - Обрабатываем источник: The Guardian World (rss)
+2026-04-11 14:01:27,356 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.theguardian.com/world/rss
+2026-04-11 14:01:27,357 - src.config.logging - INFO - Обрабатываем источник: New York Times Home Page (rss)
+2026-04-11 14:01:27,374 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+2026-04-11 14:01:27,374 - src.config.logging - INFO - Обрабатываем источник: CNN Top Stories (rss)
+2026-04-11 14:01:27,390 - src.config.logging - INFO - Собрано 0 ссылок из RSS: http://rss.cnn.com/rss/edition.rss
+2026-04-11 14:01:27,390 - src.config.logging - INFO - Обрабатываем источник: NPR News (rss)
+2026-04-11 14:01:27,407 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://feeds.npr.org/1001/rss.xml
+2026-04-11 14:01:27,408 - src.config.logging - INFO - Обрабатываем источник: CNBC Top News (rss)
+2026-04-11 14:01:27,425 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.cnbc.com/id/100003114/device/rss/rss.html
+2026-04-11 14:01:27,429 - src.config.logging - INFO - Обрабатываем источник: MarketWatch Top Stories (rss)
+2026-04-11 14:01:27,482 - src.config.logging - INFO - Собрано 0 ссылок из RSS: http://feeds.marketwatch.com/marketwatch/topstories/
+2026-04-11 14:01:27,482 - src.config.logging - INFO - Обрабатываем источник: Ars Technica (rss)
+2026-04-11 14:01:27,502 - src.config.logging - INFO - Собрано 0 ссылок из RSS: http://feeds.arstechnica.com/arstechnica/index
+2026-04-11 14:01:27,502 - src.config.logging - INFO - Обрабатываем источник: TechCrunch (rss)
+2026-04-11 14:01:27,520 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://techcrunch.com/feed/
+2026-04-11 14:01:27,521 - src.config.logging - INFO - Обрабатываем источник: The Verge (rss)
+2026-04-11 14:01:27,538 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.theverge.com/rss/index.xml
+2026-04-11 14:01:27,539 - src.config.logging - INFO - Обрабатываем источник: Wired (rss)
+2026-04-11 14:01:27,555 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.wired.com/feed/rss
+2026-04-11 14:01:27,555 - src.config.logging - INFO - Обрабатываем источник: Украинская правда (rss)
+2026-04-11 14:01:27,574 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.pravda.com.ua/rss/
+2026-04-11 14:01:27,574 - src.config.logging - INFO - Обрабатываем источник: НВ (rss)
+2026-04-11 14:01:27,595 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://nv.ua/rss.html
+2026-04-11 14:01:27,595 - src.config.logging - INFO - Обрабатываем источник: УНИАН (rss)
+2026-04-11 14:01:27,614 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.unian.net/rss/all_news.xml
+2026-04-11 14:01:27,614 - src.config.logging - INFO - Обрабатываем источник: Onliner (rss)
+2026-04-11 14:01:27,628 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://people.onliner.by/feed
+2026-04-11 14:01:27,628 - src.config.logging - INFO - Обрабатываем источник: РИА Новости (rss)
+2026-04-11 14:01:27,644 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://ria.ru/export/rss2/index.xml
+2026-04-11 14:01:27,644 - src.config.logging - INFO - Обрабатываем источник: ТАСС (rss)
+2026-04-11 14:01:27,661 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://tass.ru/rss/v2.xml
+2026-04-11 14:01:27,662 - src.config.logging - INFO - Обрабатываем источник: Lenta.ru (rss)
+2026-04-11 14:01:27,680 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://lenta.ru/rss
+2026-04-11 14:01:27,680 - src.config.logging - INFO - Обрабатываем источник: Газета.Ru (rss)
+2026-04-11 14:01:27,695 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.gazeta.ru/export/rss/lenta.xml
+2026-04-11 14:01:27,695 - src.config.logging - INFO - Обрабатываем источник: Ведомости (rss)
+2026-04-11 14:01:27,712 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.vedomosti.ru/rss/news
+2026-04-11 14:01:27,712 - src.config.logging - INFO - Обрабатываем источник: Коммерсантъ (rss)
+2026-04-11 14:01:27,727 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://www.kommersant.ru/RSS/news.xml
+2026-04-11 14:01:27,728 - src.config.logging - INFO - Обрабатываем источник: РБК (rss)
+2026-04-11 14:01:27,745 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://rssexport.rbc.ru/rbcnews/news/30/full.rss
+2026-04-11 14:01:27,745 - src.config.logging - INFO - Обрабатываем источник: Известия (rss)
+2026-04-11 14:01:27,763 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://iz.ru/xml/rss/all.xml
+2026-04-11 14:01:27,763 - src.config.logging - INFO - Всего собрано 50 ссылок из 38 источников
+2026-04-11 14:01:27,764 - src.config.logging - INFO - Фильтруем дубликаты...
+2026-04-11 14:01:27,835 - src.config.logging - INFO - После фильтрации осталось 13 новых ссылок
+2026-04-11 14:01:27,836 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/security-news-this-week-your-push-notifications-arent-safe-from-the-fbi/
+2026-04-11 14:01:27,838 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/security-news-this-week-your-push-notifications-arent-safe-from-the-fbi/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Max retries exceeded with url: /story/security-news-this-week-your-push-notifications-arent-safe-from-the-fbi/ (Caused by NameResolutionError("HTTPSConnection(host='www.wired.com', port=443): Failed to resolve 'www.wired.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-11 14:01:28,839 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/security-news-this-week-your-push-notifications-arent-safe-from-the-fbi/
+2026-04-11 14:01:28,840 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/flight-path-data-shows-how-mosquitoes-target-humans/
+2026-04-11 14:01:28,841 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/flight-path-data-shows-how-mosquitoes-target-humans/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Max retries exceeded with url: /story/flight-path-data-shows-how-mosquitoes-target-humans/ (Caused by NameResolutionError("HTTPSConnection(host='www.wired.com', port=443): Failed to resolve 'www.wired.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-11 14:01:29,843 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/flight-path-data-shows-how-mosquitoes-target-humans/
+2026-04-11 14:01:29,843 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/how-the-internet-broke-everyones-bullshit-detectors/
+2026-04-11 14:01:30,658 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/how-the-internet-broke-everyones-bullshit-detectors/
+2026-04-11 14:01:32,211 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/all-clad-factory-seconds-april-2026/
+2026-04-11 14:01:32,509 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/all-clad-factory-seconds-april-2026/
+2026-04-11 14:01:32,788 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/artemis-ii-returns-from-historic-flight-around-the-moon/
+2026-04-11 14:01:33,046 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/artemis-ii-returns-from-historic-flight-around-the-moon/
+2026-04-11 14:01:33,254 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/home-depot-spring-black-friday-deals-2026/
+2026-04-11 14:01:33,563 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/home-depot-spring-black-friday-deals-2026/
+2026-04-11 14:01:33,767 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/motorola-razr-ultra-deal-426/
+2026-04-11 14:01:34,008 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/motorola-razr-ultra-deal-426/
+2026-04-11 14:01:34,213 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/
+2026-04-11 14:01:34,452 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/
+2026-04-11 14:01:34,635 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/the-future-of-the-artemis-program-is-riding-on-reentry/
+2026-04-11 14:01:34,859 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/the-future-of-the-artemis-program-is-riding-on-reentry/
+2026-04-11 14:01:35,044 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office-threat/
+2026-04-11 14:01:35,302 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office-threat/
+2026-04-11 14:01:35,554 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/uncanny-valley-podcast-openai-musk-fight-doj-mishandles-voter-data-artemis-ii-comes-home/
+2026-04-11 14:01:35,874 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/uncanny-valley-podcast-openai-musk-fight-doj-mishandles-voter-data-artemis-ii-comes-home/
+2026-04-11 14:01:36,224 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/skoda-duobell-bike-bell-can-be-heard-by-people-wearing-noise-canceling-headphones/
+2026-04-11 14:01:36,451 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/skoda-duobell-bike-bell-can-be-heard-by-people-wearing-noise-canceling-headphones/
+2026-04-11 14:01:36,746 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/onix-substack-ai-platform-therapy-medicine-nutrition/
+2026-04-11 14:01:36,997 - src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/onix-substack-ai-platform-therapy-medicine-nutrition/
+2026-04-11 14:01:37,373 - src.config.logging - INFO - Сохраняем новые статьи в основную таблицу БД...
+2026-04-11 14:01:37,879 - src.config.logging - INFO - Сохранён пакет 1 (11 статей
+2026-04-11 14:01:37,879 - src.config.logging - INFO - Успешно сохранено 11 новых статей в БД
+2026-04-11 14:01:37,881 - src.config.logging - INFO - Соединение с БД закрыто

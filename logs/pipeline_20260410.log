@@ -1,0 +1,908 @@
+2026-04-10 11:08:49,327 - src.config.logging - ERROR - Ошибка подключения к БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "user"
+
+2026-04-10 11:19:29,948 - src.config.logging - ERROR - Ошибка подключения к БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "user"
+
+2026-04-10 11:20:51,812 - src.config.logging - INFO - Успешное подключение к PostgreSQL
+2026-04-10 11:20:51,813 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-04-10 11:20:52,357 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:20:52,382 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:52,411 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:52,596 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:20:52,597 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-10 11:20:52,620 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:52,651 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:52,663 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-mpnet-base-v2.
+2026-04-10 11:20:52,810 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:20:52,843 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:52,989 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:20:53,012 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/README.md "HTTP/1.1 200 OK"
+2026-04-10 11:20:53,037 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/README.md "HTTP/1.1 200 OK"
+2026-04-10 11:20:53,206 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:20:53,227 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:53,397 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:20:53,430 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:53,454 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:53,614 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 11:20:53,800 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:20:53,833 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:53,858 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 11:20:54,059 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-04-10 11:20:55,279 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/xet-read-token/4328cf26390c98c5e3c738b4460a05b95f4911f5 "HTTP/1.1 200 OK"
+2026-04-10 11:23:13,742 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 11:23:13,899 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 11:23:14,056 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 11:23:14,212 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 11:23:14,360 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:23:14,391 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:14,414 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:14,576 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:23:14,599 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:14,753 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:23:14,780 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:14,930 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:23:14,957 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:15,112 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-10 11:23:15,265 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-10 11:23:15,412 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/sentencepiece.bpe.model "HTTP/1.1 302 Found"
+2026-04-10 11:23:16,998 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:23:17,023 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:17,047 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:17,716 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-04-10 11:23:17,864 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:23:17,886 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:17,909 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:18,068 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-04-10 11:23:20,173 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-10 11:23:20,366 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 11:23:20,390 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:20,416 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-10 11:23:20,578 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-10 11:23:20,583 - src.config.logging - INFO - Модель эмбеддингов загружена: paraphrase-multilingual-mpnet-base-v2
+2026-04-10 11:23:20,618 - src.config.logging - INFO - Создаём таблицу data_sources...
+2026-04-10 11:23:20,706 - src.config.logging - INFO - Создаём таблицу articles...
+2026-04-10 11:23:20,749 - src.config.logging - INFO - Проверка таблиц завершена
+2026-04-10 11:23:20,759 - src.config.logging - INFO - Таблица data_sources пуста. Заполняем тестовыми источниками...
+2026-04-10 11:23:20,773 - src.config.logging - INFO - Добавлено 7 тестовых источников данных в таблицу data_sources
+2026-04-10 11:23:20,774 - src.config.logging - INFO - Получаем активные источники данных из БД...
+2026-04-10 11:23:20,783 - src.config.logging - INFO - Получено 7 активных источников
+2026-04-10 11:23:20,783 - src.config.logging - INFO - Собираем ссылки из источников...
+2026-04-10 11:23:20,784 - src.config.logging - INFO - Обрабатываем источник: New York Times (website)
+2026-04-10 11:23:21,660 - src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.nytimes.com
+2026-04-10 11:23:21,662 - src.config.logging - INFO - Обрабатываем источник: Wired RSS (rss)
+2026-04-10 11:23:21,873 - src.config.logging - INFO - Собрано 50 ссылок из RSS: https://www.wired.com/feed/rss
+2026-04-10 11:23:21,873 - src.config.logging - INFO - Обрабатываем источник: Medium Tech (rss)
+2026-04-10 11:23:43,560 - src.config.logging - INFO - Собрано 0 ссылок из RSS: https://medium.com/tag/technology/feed
+2026-04-10 11:23:43,561 - src.config.logging - INFO - Обрабатываем источник: The Guardian (website)
+2026-04-10 11:23:44,581 - src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.theguardian.com
+2026-04-10 11:23:44,583 - src.config.logging - INFO - Обрабатываем источник: BBC News (website)
+2026-04-10 11:23:54,947 - src.config.logging - ERROR - Ошибка сбора с сайта https://www.bbc.com/news: HTTPSConnectionPool(host='www.bbc.com', port=443): Read timed out. (read timeout=10)
+2026-04-10 11:23:54,947 - src.config.logging - INFO - Обрабатываем источник: Habr RSS (rss)
+2026-04-10 11:23:55,217 - src.config.logging - INFO - Собрано 40 ссылок из RSS: https://habr.com/ru/rss/all/
+2026-04-10 11:23:55,218 - src.config.logging - INFO - Обрабатываем источник: TechCrunch RSS (rss)
+2026-04-10 11:23:55,337 - src.config.logging - INFO - Собрано 20 ссылок из RSS: https://techcrunch.com/feed/
+2026-04-10 11:23:55,338 - src.config.logging - INFO - Всего собрано 110 ссылок из 7 источников
+2026-04-10 11:23:55,338 - src.config.logging - INFO - Фильтруем дубликаты...
+2026-04-10 11:23:55,455 - src.config.logging - INFO - После фильтрации осталось 110 новых ссылок
+2026-04-10 11:23:55,455 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/surfshark-coupon/
+2026-04-10 11:24:10,981 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/surfshark-coupon/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:24:11,984 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/surfshark-coupon/
+2026-04-10 11:24:11,985 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/naturepedic-promo-code/
+2026-04-10 11:24:27,526 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/naturepedic-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:24:28,529 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/naturepedic-promo-code/
+2026-04-10 11:24:28,529 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/sephora-promo-code/
+2026-04-10 11:24:44,026 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/sephora-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:24:45,028 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/sephora-promo-code/
+2026-04-10 11:24:45,029 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/hungryroot-promo-code/
+2026-04-10 11:25:00,584 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/hungryroot-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:25:01,586 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/hungryroot-promo-code/
+2026-04-10 11:25:01,587 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/govee-discount-code/
+2026-04-10 11:25:17,140 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/govee-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:25:18,143 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/govee-discount-code/
+2026-04-10 11:25:18,143 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/top-walmart-promo-codes/
+2026-04-10 11:25:33,678 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/top-walmart-promo-codes/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:25:34,681 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/top-walmart-promo-codes/
+2026-04-10 11:25:34,681 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/we-vibe-discount-code/
+2026-04-10 11:25:50,005 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/we-vibe-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=15)
+2026-04-10 11:25:51,006 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/we-vibe-discount-code/
+2026-04-10 11:25:51,007 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/nomad-discount-code/
+2026-04-10 11:26:06,504 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/nomad-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:26:07,506 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/nomad-discount-code/
+2026-04-10 11:26:07,506 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/instacart-promo/code/
+2026-04-10 11:26:23,043 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/instacart-promo/code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:26:24,046 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/instacart-promo/code/
+2026-04-10 11:26:24,046 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/sealy-promo-code/
+2026-04-10 11:26:39,540 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/sealy-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:26:40,542 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/sealy-promo-code/
+2026-04-10 11:26:40,543 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/vivid-seats-promo-code/
+2026-04-10 11:26:56,007 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/vivid-seats-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:26:57,009 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/vivid-seats-promo-code/
+2026-04-10 11:26:57,010 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/factor-promo-code/
+2026-04-10 11:27:12,566 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/factor-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:27:13,568 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/factor-promo-code/
+2026-04-10 11:27:13,568 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/
+2026-04-10 11:27:29,130 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:27:30,132 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/
+2026-04-10 11:27:30,132 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/made-in-china-inside-chinas-selective-war-on-the-scam-economy/
+2026-04-10 11:27:45,745 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/made-in-china-inside-chinas-selective-war-on-the-scam-economy/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:27:46,748 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/made-in-china-inside-chinas-selective-war-on-the-scam-economy/
+2026-04-10 11:27:46,748 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/black-forest-labs-ai-image-generation/
+2026-04-10 11:28:02,290 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/black-forest-labs-ai-image-generation/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:28:03,293 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/black-forest-labs-ai-image-generation/
+2026-04-10 11:28:03,293 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/dji-mic-mini-deal-426/
+2026-04-10 11:28:18,785 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/dji-mic-mini-deal-426/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:28:19,788 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/dji-mic-mini-deal-426/
+2026-04-10 11:28:19,789 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/john-deere-is-paying-farmers-99-million-for-allegedly-monopolizing-repair/
+2026-04-10 11:28:35,299 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/john-deere-is-paying-farmers-99-million-for-allegedly-monopolizing-repair/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:28:36,302 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/john-deere-is-paying-farmers-99-million-for-allegedly-monopolizing-repair/
+2026-04-10 11:28:36,303 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/maga-media-seems-to-have-hit-its-breaking-point-over-iran/
+2026-04-10 11:28:51,915 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/maga-media-seems-to-have-hit-its-breaking-point-over-iran/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:28:52,917 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/maga-media-seems-to-have-hit-its-breaking-point-over-iran/
+2026-04-10 11:28:52,917 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/the-fbi-didnt-answer-texts-from-minnesota-investigators-for-days-after-renee-goods-killing/
+2026-04-10 11:29:08,493 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/the-fbi-didnt-answer-texts-from-minnesota-investigators-for-days-after-renee-goods-killing/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:29:09,495 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/the-fbi-didnt-answer-texts-from-minnesota-investigators-for-days-after-renee-goods-killing/
+2026-04-10 11:29:09,495 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/inside-the-pro-iran-meme-machine-trolling-trump-with-ai-lego-cartoons/
+2026-04-10 11:29:24,980 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/inside-the-pro-iran-meme-machine-trolling-trump-with-ai-lego-cartoons/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:29:25,982 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/inside-the-pro-iran-meme-machine-trolling-trump-with-ai-lego-cartoons/
+2026-04-10 11:29:25,982 - src.config.logging - INFO - Парсим статью: https://www.wired.com/review/ridge-wallet/
+2026-04-10 11:29:41,519 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/review/ridge-wallet/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:29:42,522 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/review/ridge-wallet/
+2026-04-10 11:29:42,522 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/how-meta-cafeteria-workers-rallied-to-take-on-ice/
+2026-04-10 11:29:58,099 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/how-meta-cafeteria-workers-rallied-to-take-on-ice/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:29:59,102 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/how-meta-cafeteria-workers-rallied-to-take-on-ice/
+2026-04-10 11:29:59,102 - src.config.logging - INFO - Парсим статью: https://www.wired.com/review/fi-mini-for-cats/
+2026-04-10 11:30:14,627 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/review/fi-mini-for-cats/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:30:15,629 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/review/fi-mini-for-cats/
+2026-04-10 11:30:15,630 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/netflix-love-is-blind-brandon-riegg-on-why-so-many-men-on-dating-shows-are-terrible/
+2026-04-10 11:30:31,161 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/netflix-love-is-blind-brandon-riegg-on-why-so-many-men-on-dating-shows-are-terrible/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:30:32,164 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/netflix-love-is-blind-brandon-riegg-on-why-so-many-men-on-dating-shows-are-terrible/
+2026-04-10 11:30:32,164 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/political-campaign-security-spending/
+2026-04-10 11:30:47,754 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/political-campaign-security-spending/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:30:48,756 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/political-campaign-security-spending/
+2026-04-10 11:30:48,757 - src.config.logging - INFO - Парсим статью: https://www.wired.com/review/tcl-nxtvision-2025/
+2026-04-10 11:31:04,075 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/review/tcl-nxtvision-2025/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=15)
+2026-04-10 11:31:05,077 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/review/tcl-nxtvision-2025/
+2026-04-10 11:31:05,077 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/this-ai-button-wearable-from-ex-apple-engineers-looks-like-an-ipod-shuffle/
+2026-04-10 11:31:20,631 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/this-ai-button-wearable-from-ex-apple-engineers-looks-like-an-ipod-shuffle/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:31:21,634 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/this-ai-button-wearable-from-ex-apple-engineers-looks-like-an-ipod-shuffle/
+2026-04-10 11:31:21,634 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/artemis-ii-astronauts-witnessed-6-meteorites-collide-with-the-moon/
+2026-04-10 11:31:37,200 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/artemis-ii-astronauts-witnessed-6-meteorites-collide-with-the-moon/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:31:38,203 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/artemis-ii-astronauts-witnessed-6-meteorites-collide-with-the-moon/
+2026-04-10 11:31:38,203 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/paramount-plus-coupon-code/
+2026-04-10 11:31:53,764 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/paramount-plus-coupon-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:31:54,767 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/paramount-plus-coupon-code/
+2026-04-10 11:31:54,767 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/turbotax-coupon/
+2026-04-10 11:32:10,263 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/turbotax-coupon/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:32:11,267 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/turbotax-coupon/
+2026-04-10 11:32:11,268 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/dell-coupon-code/
+2026-04-10 11:32:26,580 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/dell-coupon-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=15)
+2026-04-10 11:32:27,581 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/dell-coupon-code/
+2026-04-10 11:32:27,582 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/peacock-promo-code/
+2026-04-10 11:32:43,064 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/peacock-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:32:44,068 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/peacock-promo-code/
+2026-04-10 11:32:44,068 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/nordvpn-coupon/
+2026-04-10 11:32:59,607 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/nordvpn-coupon/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:33:00,609 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/nordvpn-coupon/
+2026-04-10 11:33:00,609 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/brooks-promo-code/
+2026-04-10 11:33:15,931 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/brooks-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=15)
+2026-04-10 11:33:16,932 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/brooks-promo-code/
+2026-04-10 11:33:16,933 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/google-workspace-promo-code/
+2026-04-10 11:33:32,509 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/google-workspace-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:33:33,512 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/google-workspace-promo-code/
+2026-04-10 11:33:33,513 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/lg-promo-code/
+2026-04-10 11:33:49,040 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/lg-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:33:50,042 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/lg-promo-code/
+2026-04-10 11:33:50,043 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/nzxt-discount-code/
+2026-04-10 11:34:05,607 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/nzxt-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:34:06,610 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/nzxt-discount-code/
+2026-04-10 11:34:06,610 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/canon-promo-code/
+2026-04-10 11:34:22,132 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/canon-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:34:23,136 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/canon-promo-code/
+2026-04-10 11:34:23,136 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/vimeo-promo-code/
+2026-04-10 11:34:38,664 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/vimeo-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:34:39,666 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/vimeo-promo-code/
+2026-04-10 11:34:39,667 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/medicube-coupon-code/
+2026-04-10 11:34:55,259 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/medicube-coupon-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:34:56,263 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/medicube-coupon-code/
+2026-04-10 11:34:56,263 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/att-promo-code/
+2026-04-10 11:35:11,576 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/att-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=15)
+2026-04-10 11:35:12,577 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/att-promo-code/
+2026-04-10 11:35:12,578 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/petlibro-discount-code/
+2026-04-10 11:35:28,151 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/petlibro-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:35:29,153 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/petlibro-discount-code/
+2026-04-10 11:35:29,154 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/home-chef-promo-code/
+2026-04-10 11:35:44,652 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/home-chef-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:35:45,654 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/home-chef-promo-code/
+2026-04-10 11:35:45,655 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/altra-promo-code/
+2026-04-10 11:36:01,196 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/altra-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:36:02,198 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/altra-promo-code/
+2026-04-10 11:36:02,199 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/bartesian-discount-code/
+2026-04-10 11:36:17,733 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/bartesian-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:36:18,735 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/bartesian-discount-code/
+2026-04-10 11:36:18,735 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/anthropic-appeals-court-ruling/
+2026-04-10 11:36:34,294 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/anthropic-appeals-court-ruling/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:36:35,297 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/anthropic-appeals-court-ruling/
+2026-04-10 11:36:35,297 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/the-strait-of-hormuz-reopens-but-global-shipping-will-take-months-to-recover/
+2026-04-10 11:36:50,790 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/the-strait-of-hormuz-reopens-but-global-shipping-will-take-months-to-recover/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:36:51,793 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/the-strait-of-hormuz-reopens-but-global-shipping-will-take-months-to-recover/
+2026-04-10 11:36:51,793 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/muse-spark-meta-open-source-closed-source/
+2026-04-10 11:37:07,350 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/muse-spark-meta-open-source-closed-source/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:37:08,352 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/muse-spark-meta-open-source-closed-source/
+2026-04-10 11:37:08,353 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/we-were-not-ready-for-this-lebanons-emergency-system-is-hanging-by-a-thread/
+2026-04-10 11:37:23,781 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/we-were-not-ready-for-this-lebanons-emergency-system-is-hanging-by-a-thread/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:37:24,783 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/we-were-not-ready-for-this-lebanons-emergency-system-is-hanging-by-a-thread/
+2026-04-10 11:37:24,784 - src.config.logging - INFO - Парсим статью: https://www.wired.com/story/army-developing-ai-system-victor-chatbot-soldiers/
+2026-04-10 11:37:40,400 - src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/army-developing-ai-system-victor-chatbot-soldiers/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 11:37:41,403 - src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/army-developing-ai-system-victor-chatbot-soldiers/
+2026-04-10 11:37:41,404 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021698/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021698
+2026-04-10 11:37:42,669 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021698/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021698
+2026-04-10 11:37:42,981 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021696/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021696
+2026-04-10 11:37:43,198 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021696/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021696
+2026-04-10 11:37:43,360 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021694/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021694
+2026-04-10 11:37:43,658 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021694/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021694
+2026-04-10 11:37:43,830 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021684/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021684
+2026-04-10 11:37:44,054 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021684/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021684
+2026-04-10 11:37:44,211 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/timeweb/articles/1001018/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1001018
+2026-04-10 11:37:44,777 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/timeweb/articles/1001018/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1001018
+2026-04-10 11:37:44,961 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021692/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021692
+2026-04-10 11:37:45,424 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021692/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021692
+2026-04-10 11:37:45,576 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/runity/articles/1021688/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021688
+2026-04-10 11:37:45,985 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/runity/articles/1021688/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021688
+2026-04-10 11:37:46,140 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/ua-hosting/articles/1021190/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021190
+2026-04-10 11:37:46,484 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/ua-hosting/articles/1021190/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021190
+2026-04-10 11:37:46,666 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/selectel/articles/1021272/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021272
+2026-04-10 11:37:47,004 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/selectel/articles/1021272/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021272
+2026-04-10 11:37:47,160 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/click/articles/1021440/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021440
+2026-04-10 11:37:47,633 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/click/articles/1021440/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021440
+2026-04-10 11:37:47,836 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/smartvalues/articles/1021686/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021686
+2026-04-10 11:37:49,568 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/smartvalues/articles/1021686/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021686
+2026-04-10 11:37:49,730 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021554/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021554
+2026-04-10 11:37:50,036 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021554/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021554
+2026-04-10 11:37:50,189 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021682/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021682
+2026-04-10 11:37:50,915 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021682/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021682
+2026-04-10 11:37:51,083 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021680/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021680
+2026-04-10 11:37:51,613 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021680/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021680
+2026-04-10 11:37:51,771 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021656/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021656
+2026-04-10 11:37:52,423 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021656/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021656
+2026-04-10 11:37:52,626 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021678/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021678
+2026-04-10 11:37:53,010 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021678/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021678
+2026-04-10 11:37:53,173 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021672/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021672
+2026-04-10 11:37:53,776 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021672/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021672
+2026-04-10 11:37:53,944 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021576/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021576
+2026-04-10 11:37:54,451 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021576/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021576
+2026-04-10 11:37:54,629 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021388/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021388
+2026-04-10 11:37:55,155 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021388/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021388
+2026-04-10 11:37:55,331 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021552/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021552
+2026-04-10 11:37:55,777 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021552/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021552
+2026-04-10 11:37:55,933 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021668/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021668
+2026-04-10 11:37:56,329 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021668/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021668
+2026-04-10 11:37:56,481 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021666/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021666
+2026-04-10 11:37:56,989 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021666/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021666
+2026-04-10 11:37:57,169 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021664/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021664
+2026-04-10 11:37:57,653 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021664/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021664
+2026-04-10 11:37:57,832 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/otus/articles/1020952/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1020952
+2026-04-10 11:37:58,904 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/otus/articles/1020952/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1020952
+2026-04-10 11:37:59,073 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/ru_mts/articles/1021104/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021104
+2026-04-10 11:37:59,691 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/ru_mts/articles/1021104/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021104
+2026-04-10 11:37:59,873 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/atom/articles/1017048/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1017048
+2026-04-10 11:38:00,279 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/atom/articles/1017048/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1017048
+2026-04-10 11:38:00,454 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/beget/articles/1019468/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1019468
+2026-04-10 11:38:01,139 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/beget/articles/1019468/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1019468
+2026-04-10 11:38:01,324 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021588/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021588
+2026-04-10 11:38:01,724 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021588/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021588
+2026-04-10 11:38:01,888 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/yandex/articles/1020282/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1020282
+2026-04-10 11:38:02,358 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/yandex/articles/1020282/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1020282
+2026-04-10 11:38:02,515 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/ozontech/articles/1020990/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1020990
+2026-04-10 11:38:04,639 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/ozontech/articles/1020990/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1020990
+2026-04-10 11:38:04,805 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/onlinepatent/articles/1021652/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021652
+2026-04-10 11:38:05,546 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/onlinepatent/articles/1021652/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021652
+2026-04-10 11:38:05,724 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021608/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021608
+2026-04-10 11:38:06,411 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021608/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021608
+2026-04-10 11:38:06,583 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021590/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021590
+2026-04-10 11:38:06,911 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021590/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021590
+2026-04-10 11:38:07,064 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021650/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021650
+2026-04-10 11:38:07,254 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021650/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021650
+2026-04-10 11:38:07,467 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/simpleone/articles/1021460/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021460
+2026-04-10 11:38:07,703 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/simpleone/articles/1021460/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021460
+2026-04-10 11:38:07,863 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/solarsecurity/articles/1021456/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021456
+2026-04-10 11:38:08,101 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/solarsecurity/articles/1021456/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021456
+2026-04-10 11:38:08,284 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021644/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021644
+2026-04-10 11:38:08,542 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021644/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021644
+2026-04-10 11:38:08,699 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/infostart/articles/1021642/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021642
+2026-04-10 11:38:09,168 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/infostart/articles/1021642/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021642
+2026-04-10 11:38:09,318 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/yandex_praktikum/articles/1021476/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021476
+2026-04-10 11:38:09,515 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/yandex_praktikum/articles/1021476/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021476
+2026-04-10 11:38:09,675 - src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021384/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021384
+2026-04-10 11:38:09,944 - src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021384/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021384
+2026-04-10 11:38:10,125 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/florida-ag-to-probe-openai-alleging-possible-connection-to-fsu-shooting/
+2026-04-10 11:38:10,555 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/florida-ag-to-probe-openai-alleging-possible-connection-to-fsu-shooting/
+2026-04-10 11:38:10,633 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/
+2026-04-10 11:38:10,698 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/
+2026-04-10 11:38:10,767 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/eff-is-the-latest-organization-to-leave-x/
+2026-04-10 11:38:10,837 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/eff-is-the-latest-organization-to-leave-x/
+2026-04-10 11:38:10,909 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/what-founders-can-learn-from-anjunas-layoffs-and-recovery/
+2026-04-10 11:38:10,973 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/what-founders-can-learn-from-anjunas-layoffs-and-recovery/
+2026-04-10 11:38:11,050 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/volkswagen-drops-all-electric-id-4-in-the-us-in-pivot-back-to-gas-suvs/
+2026-04-10 11:38:11,116 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/volkswagen-drops-all-electric-id-4-in-the-us-in-pivot-back-to-gas-suvs/
+2026-04-10 11:38:11,193 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/
+2026-04-10 11:38:11,275 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/
+2026-04-10 11:38:11,359 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/stubhub-to-pay-10m-to-settle-ftc-allegations-over-deceptive-ticket-pricing/
+2026-04-10 11:38:11,424 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/stubhub-to-pay-10m-to-settle-ftc-allegations-over-deceptive-ticket-pricing/
+2026-04-10 11:38:11,511 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/
+2026-04-10 11:38:11,574 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/
+2026-04-10 11:38:11,664 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/
+2026-04-10 11:38:11,730 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/
+2026-04-10 11:38:11,813 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/
+2026-04-10 11:38:11,871 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/
+2026-04-10 11:38:11,956 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/
+2026-04-10 11:38:12,012 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/
+2026-04-10 11:38:12,075 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/how-to-make-the-startup-battlefield-top-20-and-what-every-company-gets-regardless/
+2026-04-10 11:38:12,137 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/how-to-make-the-startup-battlefield-top-20-and-what-every-company-gets-regardless/
+2026-04-10 11:38:12,218 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/you-can-now-edit-your-instagram-comments/
+2026-04-10 11:38:12,276 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/you-can-now-edit-your-instagram-comments/
+2026-04-10 11:38:12,339 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/
+2026-04-10 11:38:12,404 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/
+2026-04-10 11:38:12,483 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/avecs-tinder-styled-email-app-allows-you-to-swipe-through-your-inbox/
+2026-04-10 11:38:12,548 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/avecs-tinder-styled-email-app-allows-you-to-swipe-through-your-inbox/
+2026-04-10 11:38:12,630 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/x-brings-back-voice-notes-to-x-chat/
+2026-04-10 11:38:12,691 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/x-brings-back-voice-notes-to-x-chat/
+2026-04-10 11:38:12,786 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/hacker-stole-700000-from-u-k-energy-company-by-redirecting-payment/
+2026-04-10 11:38:12,865 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/hacker-stole-700000-from-u-k-energy-company-by-redirecting-payment/
+2026-04-10 11:38:12,954 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/
+2026-04-10 11:38:13,016 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/
+2026-04-10 11:38:13,114 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/final-2-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-ticket/
+2026-04-10 11:38:13,184 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/final-2-days-to-save-up-to-500-on-your-techcrunch-disrupt-2026-ticket/
+2026-04-10 11:38:13,266 - src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/spotify-now-lets-everyone-turn-off-all-videos-in-its-app/
+2026-04-10 11:38:13,328 - src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/spotify-now-lets-everyone-turn-off-all-videos-in-its-app/
+2026-04-10 11:38:13,402 - src.config.logging - INFO - Сохраняем новые статьи в основную таблицу БД...
+2026-04-10 11:38:16,252 - src.config.logging - INFO - Сохранён пакет 1 (60 статей
+2026-04-10 11:38:16,253 - src.config.logging - INFO - Успешно сохранено 60 новых статей в БД
+2026-04-10 11:38:16,253 - src.config.logging - INFO - Соединение с БД закрыто
+2026-04-10 16:47:49,045 - collect_articles.src.config.logging - INFO - Успешное подключение к PostgreSQL
+2026-04-10 16:47:49,047 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-04-10 16:47:49,523 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:49,543 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:49,721 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:49,722 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-10 16:47:49,743 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:49,744 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-mpnet-base-v2.
+2026-04-10 16:47:49,888 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:49,911 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:50,225 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:50,246 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/README.md "HTTP/1.1 200 OK"
+2026-04-10 16:47:50,450 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:50,472 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:50,650 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:50,678 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:50,831 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:47:51,031 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:51,054 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:51,359 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:47:51,544 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:47:51,695 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:47:51,871 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:47:52,022 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:52,046 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:52,194 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:52,217 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:52,518 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:52,542 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:52,692 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:52,718 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:52,880 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-10 16:47:53,033 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-10 16:47:55,123 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-10 16:47:55,295 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:47:55,318 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-10 16:47:55,467 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-10 16:47:55,470 - collect_articles.src.config.logging - INFO - Модель эмбеддингов загружена: paraphrase-multilingual-mpnet-base-v2
+2026-04-10 16:47:55,482 - collect_articles.src.config.logging - INFO - Проверка таблиц завершена
+2026-04-10 16:47:55,490 - collect_articles.src.config.logging - INFO - Таблица data_sources уже содержит 7 записей. Пропускаем заполнение тестовыми данными.
+2026-04-10 16:47:55,490 - collect_articles.src.config.logging - INFO - Получаем активные источники данных из БД...
+2026-04-10 16:47:55,496 - collect_articles.src.config.logging - INFO - Получено 7 активных источников
+2026-04-10 16:47:55,496 - collect_articles.src.config.logging - INFO - Собираем ссылки из источников...
+2026-04-10 16:47:55,496 - collect_articles.src.config.logging - INFO - Обрабатываем источник: New York Times (website)
+2026-04-10 16:47:56,698 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.nytimes.com
+2026-04-10 16:47:56,700 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Wired RSS (rss)
+2026-04-10 16:47:56,866 - collect_articles.src.config.logging - INFO - Собрано 50 ссылок из RSS: https://www.wired.com/feed/rss
+2026-04-10 16:47:56,866 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Medium Tech (rss)
+2026-04-10 16:48:16,177 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок из RSS: https://medium.com/tag/technology/feed
+2026-04-10 16:48:16,177 - collect_articles.src.config.logging - INFO - Обрабатываем источник: The Guardian (website)
+2026-04-10 16:48:17,500 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.theguardian.com
+2026-04-10 16:48:17,502 - collect_articles.src.config.logging - INFO - Обрабатываем источник: BBC News (website)
+2026-04-10 16:48:27,963 - collect_articles.src.config.logging - ERROR - Ошибка сбора с сайта https://www.bbc.com/news: HTTPSConnectionPool(host='www.bbc.com', port=443): Read timed out. (read timeout=10)
+2026-04-10 16:48:27,964 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Habr RSS (rss)
+2026-04-10 16:48:28,250 - collect_articles.src.config.logging - INFO - Собрано 40 ссылок из RSS: https://habr.com/ru/rss/all/
+2026-04-10 16:48:28,251 - collect_articles.src.config.logging - INFO - Обрабатываем источник: TechCrunch RSS (rss)
+2026-04-10 16:48:28,396 - collect_articles.src.config.logging - INFO - Собрано 20 ссылок из RSS: https://techcrunch.com/feed/
+2026-04-10 16:48:28,396 - collect_articles.src.config.logging - INFO - Всего собрано 110 ссылок из 7 источников
+2026-04-10 16:48:28,397 - collect_articles.src.config.logging - INFO - Фильтруем дубликаты...
+2026-04-10 16:48:28,507 - collect_articles.src.config.logging - INFO - После фильтрации осталось 91 новых ссылок
+2026-04-10 16:48:28,507 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/aventon-current-adv-electric-mountain-bike/
+2026-04-10 16:48:43,966 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/review/aventon-current-adv-electric-mountain-bike/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:48:44,969 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/review/aventon-current-adv-electric-mountain-bike/
+2026-04-10 16:48:44,969 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/gallery/best-smart-shades-blinds-curtains/
+2026-04-10 16:49:00,306 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/gallery/best-smart-shades-blinds-curtains/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out. (read timeout=15)
+2026-04-10 16:49:01,307 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/gallery/best-smart-shades-blinds-curtains/
+2026-04-10 16:49:01,308 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/the-indie-news-queen-whos-not-done-pissing-off-the-powerful/
+2026-04-10 16:49:16,817 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/the-indie-news-queen-whos-not-done-pissing-off-the-powerful/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:49:17,820 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/the-indie-news-queen-whos-not-done-pissing-off-the-powerful/
+2026-04-10 16:49:17,821 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/ai-podcasters-really-want-to-tell-you-how-to-keep-a-man-happy/
+2026-04-10 16:49:33,312 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/ai-podcasters-really-want-to-tell-you-how-to-keep-a-man-happy/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:49:34,314 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/ai-podcasters-really-want-to-tell-you-how-to-keep-a-man-happy/
+2026-04-10 16:49:34,315 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/irrigreen-smart-irrigation-system-3-2026/
+2026-04-10 16:49:49,849 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/review/irrigreen-smart-irrigation-system-3-2026/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:49:50,851 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/review/irrigreen-smart-irrigation-system-3-2026/
+2026-04-10 16:49:50,852 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/no-one-knows-where-us-vaccine-policy-goes-next/
+2026-04-10 16:50:06,365 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/no-one-knows-where-us-vaccine-policy-goes-next/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:50:07,368 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/no-one-knows-where-us-vaccine-policy-goes-next/
+2026-04-10 16:50:07,368 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/asus-rog-cetra/
+2026-04-10 16:50:22,864 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/review/asus-rog-cetra/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:50:23,867 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/review/asus-rog-cetra/
+2026-04-10 16:50:23,867 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/metas-new-ai-asked-for-my-raw-health-data-and-gave-me-terrible-advice/
+2026-04-10 16:50:39,469 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/metas-new-ai-asked-for-my-raw-health-data-and-gave-me-terrible-advice/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:50:40,471 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/metas-new-ai-asked-for-my-raw-health-data-and-gave-me-terrible-advice/
+2026-04-10 16:50:40,471 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/how-and-when-to-watch-the-artemis-ii-missions-return-to-earth/
+2026-04-10 16:50:55,959 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/how-and-when-to-watch-the-artemis-ii-missions-return-to-earth/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:50:56,962 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/how-and-when-to-watch-the-artemis-ii-missions-return-to-earth/
+2026-04-10 16:50:56,962 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/surfshark-coupon/
+2026-04-10 16:51:12,502 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/surfshark-coupon/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:51:13,504 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/surfshark-coupon/
+2026-04-10 16:51:13,505 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/naturepedic-promo-code/
+2026-04-10 16:51:29,052 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/naturepedic-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:51:30,054 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/naturepedic-promo-code/
+2026-04-10 16:51:30,054 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/sephora-promo-code/
+2026-04-10 16:51:45,651 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/sephora-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:51:46,654 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/sephora-promo-code/
+2026-04-10 16:51:46,654 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/hungryroot-promo-code/
+2026-04-10 16:52:02,175 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/hungryroot-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:52:03,177 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/hungryroot-promo-code/
+2026-04-10 16:52:03,178 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/govee-discount-code/
+2026-04-10 16:52:18,751 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/govee-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:52:19,753 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/govee-discount-code/
+2026-04-10 16:52:19,754 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/top-walmart-promo-codes/
+2026-04-10 16:52:35,355 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/top-walmart-promo-codes/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:52:36,357 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/top-walmart-promo-codes/
+2026-04-10 16:52:36,358 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/we-vibe-discount-code/
+2026-04-10 16:52:51,898 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/we-vibe-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:52:52,901 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/we-vibe-discount-code/
+2026-04-10 16:52:52,901 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/nomad-discount-code/
+2026-04-10 16:53:08,472 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/nomad-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:53:09,474 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/nomad-discount-code/
+2026-04-10 16:53:09,474 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/instacart-promo/code/
+2026-04-10 16:53:24,991 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/instacart-promo/code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:53:25,993 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/instacart-promo/code/
+2026-04-10 16:53:25,993 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/sealy-promo-code/
+2026-04-10 16:53:51,572 - collect_articles.src.config.logging - INFO - Успешное подключение к PostgreSQL
+2026-04-10 16:53:51,574 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-04-10 16:53:52,059 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:52,085 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:52,237 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:52,257 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:52,259 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-mpnet-base-v2.
+2026-04-10 16:53:52,451 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:52,472 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:52,622 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:52,774 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/README.md "HTTP/1.1 200 OK"
+2026-04-10 16:53:52,973 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:52,997 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:53,151 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:53,174 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:53,331 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:53:53,482 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:53,513 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:53,809 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:53:53,985 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:53:54,151 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:53:54,151 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-10 16:53:54,305 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 16:53:54,453 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:54,475 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:54,865 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:54,891 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:55,044 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:55,069 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:55,217 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:55,239 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:55,389 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-10 16:53:55,542 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-10 16:53:57,493 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-10 16:53:57,681 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 16:53:57,702 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-10 16:53:57,858 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-10 16:53:57,861 - collect_articles.src.config.logging - INFO - Модель эмбеддингов загружена: paraphrase-multilingual-mpnet-base-v2
+2026-04-10 16:53:57,866 - collect_articles.src.config.logging - INFO - Создаём таблицу data_sources...
+2026-04-10 16:53:57,906 - collect_articles.src.config.logging - INFO - Создаём таблицу articles...
+2026-04-10 16:53:57,945 - collect_articles.src.config.logging - INFO - Проверка таблиц завершена
+2026-04-10 16:53:57,948 - collect_articles.src.config.logging - INFO - Таблица data_sources пуста. Заполняем тестовыми источниками...
+2026-04-10 16:53:57,965 - collect_articles.src.config.logging - INFO - Добавлено 7 тестовых источников данных в таблицу data_sources
+2026-04-10 16:53:57,965 - collect_articles.src.config.logging - INFO - Получаем активные источники данных из БД...
+2026-04-10 16:53:57,968 - collect_articles.src.config.logging - INFO - Получено 7 активных источников
+2026-04-10 16:53:57,969 - collect_articles.src.config.logging - INFO - Собираем ссылки из источников...
+2026-04-10 16:53:57,969 - collect_articles.src.config.logging - INFO - Обрабатываем источник: New York Times (website)
+2026-04-10 16:53:59,050 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.nytimes.com
+2026-04-10 16:53:59,052 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Wired RSS (rss)
+2026-04-10 16:53:59,169 - collect_articles.src.config.logging - INFO - Собрано 50 ссылок из RSS: https://www.wired.com/feed/rss
+2026-04-10 16:53:59,169 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Medium Tech (rss)
+2026-04-10 16:54:20,872 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок из RSS: https://medium.com/tag/technology/feed
+2026-04-10 16:54:20,872 - collect_articles.src.config.logging - INFO - Обрабатываем источник: The Guardian (website)
+2026-04-10 16:54:21,904 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.theguardian.com
+2026-04-10 16:54:21,906 - collect_articles.src.config.logging - INFO - Обрабатываем источник: BBC News (website)
+2026-04-10 16:54:32,323 - collect_articles.src.config.logging - ERROR - Ошибка сбора с сайта https://www.bbc.com/news: HTTPSConnectionPool(host='www.bbc.com', port=443): Read timed out. (read timeout=10)
+2026-04-10 16:54:32,323 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Habr RSS (rss)
+2026-04-10 16:54:32,614 - collect_articles.src.config.logging - INFO - Собрано 40 ссылок из RSS: https://habr.com/ru/rss/all/
+2026-04-10 16:54:32,615 - collect_articles.src.config.logging - INFO - Обрабатываем источник: TechCrunch RSS (rss)
+2026-04-10 16:54:32,756 - collect_articles.src.config.logging - INFO - Собрано 20 ссылок из RSS: https://techcrunch.com/feed/
+2026-04-10 16:54:32,757 - collect_articles.src.config.logging - INFO - Всего собрано 110 ссылок из 7 источников
+2026-04-10 16:54:32,757 - collect_articles.src.config.logging - INFO - Фильтруем дубликаты...
+2026-04-10 16:54:32,888 - collect_articles.src.config.logging - INFO - После фильтрации осталось 110 новых ссылок
+2026-04-10 16:54:32,889 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/aventon-current-adv-electric-mountain-bike/
+2026-04-10 16:54:48,685 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/review/aventon-current-adv-electric-mountain-bike/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:54:49,688 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/review/aventon-current-adv-electric-mountain-bike/
+2026-04-10 16:54:49,688 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/gallery/best-smart-shades-blinds-curtains/
+2026-04-10 16:55:05,193 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/gallery/best-smart-shades-blinds-curtains/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:55:06,195 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/gallery/best-smart-shades-blinds-curtains/
+2026-04-10 16:55:06,195 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/the-indie-news-queen-whos-not-done-pissing-off-the-powerful/
+2026-04-10 16:55:21,743 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/the-indie-news-queen-whos-not-done-pissing-off-the-powerful/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:55:22,745 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/the-indie-news-queen-whos-not-done-pissing-off-the-powerful/
+2026-04-10 16:55:22,745 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/ai-podcasters-really-want-to-tell-you-how-to-keep-a-man-happy/
+2026-04-10 16:55:38,290 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/ai-podcasters-really-want-to-tell-you-how-to-keep-a-man-happy/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:55:39,292 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/ai-podcasters-really-want-to-tell-you-how-to-keep-a-man-happy/
+2026-04-10 16:55:39,293 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/irrigreen-smart-irrigation-system-3-2026/
+2026-04-10 16:55:54,820 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/review/irrigreen-smart-irrigation-system-3-2026/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:55:55,822 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/review/irrigreen-smart-irrigation-system-3-2026/
+2026-04-10 16:55:55,822 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/no-one-knows-where-us-vaccine-policy-goes-next/
+2026-04-10 16:56:11,437 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/no-one-knows-where-us-vaccine-policy-goes-next/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:56:12,441 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/no-one-knows-where-us-vaccine-policy-goes-next/
+2026-04-10 16:56:12,441 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/asus-rog-cetra/
+2026-04-10 16:56:27,939 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/review/asus-rog-cetra/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:56:28,941 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/review/asus-rog-cetra/
+2026-04-10 16:56:28,942 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/metas-new-ai-asked-for-my-raw-health-data-and-gave-me-terrible-advice/
+2026-04-10 16:56:44,506 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/metas-new-ai-asked-for-my-raw-health-data-and-gave-me-terrible-advice/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:56:45,509 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/metas-new-ai-asked-for-my-raw-health-data-and-gave-me-terrible-advice/
+2026-04-10 16:56:45,509 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/how-and-when-to-watch-the-artemis-ii-missions-return-to-earth/
+2026-04-10 16:57:01,018 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/how-and-when-to-watch-the-artemis-ii-missions-return-to-earth/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:57:02,022 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/how-and-when-to-watch-the-artemis-ii-missions-return-to-earth/
+2026-04-10 16:57:02,022 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/surfshark-coupon/
+2026-04-10 16:57:17,507 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/surfshark-coupon/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:57:18,509 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/surfshark-coupon/
+2026-04-10 16:57:18,509 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/naturepedic-promo-code/
+2026-04-10 16:57:34,090 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/naturepedic-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:57:35,093 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/naturepedic-promo-code/
+2026-04-10 16:57:35,093 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/sephora-promo-code/
+2026-04-10 16:57:50,640 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/sephora-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:57:51,642 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/sephora-promo-code/
+2026-04-10 16:57:51,642 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/hungryroot-promo-code/
+2026-04-10 16:58:07,201 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/hungryroot-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:58:08,203 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/hungryroot-promo-code/
+2026-04-10 16:58:08,204 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/govee-discount-code/
+2026-04-10 16:58:24,024 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/govee-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:58:25,026 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/govee-discount-code/
+2026-04-10 16:58:25,026 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/top-walmart-promo-codes/
+2026-04-10 16:58:40,591 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/top-walmart-promo-codes/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:58:41,594 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/top-walmart-promo-codes/
+2026-04-10 16:58:41,594 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/we-vibe-discount-code/
+2026-04-10 16:58:57,251 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/we-vibe-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:58:58,253 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/we-vibe-discount-code/
+2026-04-10 16:58:58,254 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/nomad-discount-code/
+2026-04-10 16:59:13,725 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/nomad-discount-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:59:14,727 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/nomad-discount-code/
+2026-04-10 16:59:14,727 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/instacart-promo/code/
+2026-04-10 16:59:30,326 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/instacart-promo/code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:59:31,327 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/instacart-promo/code/
+2026-04-10 16:59:31,328 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/sealy-promo-code/
+2026-04-10 16:59:46,857 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/sealy-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 16:59:47,860 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/sealy-promo-code/
+2026-04-10 16:59:47,861 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/vivid-seats-promo-code/
+2026-04-10 17:00:03,406 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/vivid-seats-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 17:00:04,409 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/vivid-seats-promo-code/
+2026-04-10 17:00:04,409 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/factor-promo-code/
+2026-04-10 17:00:19,954 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/factor-promo-code/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 17:00:20,956 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/factor-promo-code/
+2026-04-10 17:00:20,956 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/
+2026-04-10 17:00:36,635 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 17:00:37,638 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/
+2026-04-10 17:00:37,638 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/made-in-china-inside-chinas-selective-war-on-the-scam-economy/
+2026-04-10 17:00:53,133 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/made-in-china-inside-chinas-selective-war-on-the-scam-economy/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 17:00:54,136 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/made-in-china-inside-chinas-selective-war-on-the-scam-economy/
+2026-04-10 17:00:54,136 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/black-forest-labs-ai-image-generation/
+2026-04-10 17:01:09,642 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/black-forest-labs-ai-image-generation/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 17:01:10,644 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/black-forest-labs-ai-image-generation/
+2026-04-10 17:01:10,645 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/dji-mic-mini-deal-426/
+2026-04-10 17:01:26,240 - collect_articles.src.config.logging - WARNING - Попытка 1 для https://www.wired.com/story/dji-mic-mini-deal-426/ не удалась: HTTPSConnectionPool(host='www.wired.com', port=443): Read timed out.
+2026-04-10 17:01:27,242 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://www.wired.com/story/dji-mic-mini-deal-426/
+2026-04-10 17:01:27,243 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/john-deere-is-paying-farmers-99-million-for-allegedly-monopolizing-repair/
+2026-04-10 17:01:42,813 - collect_articles.src.config.logging - INFO - Соединение с БД закрыто
+2026-04-10 17:03:59,971 - collect_articles.src.config.logging - INFO - Успешное подключение к PostgreSQL
+2026-04-10 17:03:59,973 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-04-10 17:04:00,579 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:00,580 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-10 17:04:00,637 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:00,810 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:00,863 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:00,865 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-mpnet-base-v2.
+2026-04-10 17:04:01,074 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:01,139 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:01,317 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:01,370 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/README.md "HTTP/1.1 200 OK"
+2026-04-10 17:04:01,543 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:01,597 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/modules.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:01,773 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:01,830 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:02,025 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 17:04:02,219 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:02,276 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:02,621 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 17:04:02,801 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 17:04:02,976 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 17:04:03,158 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-04-10 17:04:03,340 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:03,393 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:03,609 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:03,720 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:03,896 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:03,955 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/config.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:04,134 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:04,188 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:04,366 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-10 17:04:04,544 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-10 17:04:06,594 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-10 17:04:06,793 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-10 17:04:06,852 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2/4328cf26390c98c5e3c738b4460a05b95f4911f5/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-04-10 17:04:07,031 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-04-10 17:04:07,034 - collect_articles.src.config.logging - INFO - Модель эмбеддингов загружена: paraphrase-multilingual-mpnet-base-v2
+2026-04-10 17:04:07,038 - collect_articles.src.config.logging - INFO - Проверка таблиц завершена
+2026-04-10 17:04:07,040 - collect_articles.src.config.logging - INFO - Таблица data_sources уже содержит 9 записей. Пропускаем заполнение тестовыми данными.
+2026-04-10 17:04:07,041 - collect_articles.src.config.logging - INFO - Получаем активные источники данных из БД...
+2026-04-10 17:04:07,043 - collect_articles.src.config.logging - INFO - Получено 9 активных источников
+2026-04-10 17:04:07,044 - collect_articles.src.config.logging - INFO - Собираем ссылки из источников...
+2026-04-10 17:04:07,044 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Mephi (website)
+2026-04-10 17:04:17,161 - collect_articles.src.config.logging - ERROR - Ошибка сбора с сайта https://mephi.ru/: HTTPSConnectionPool(host='mephi.ru', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='mephi.ru', port=443) at 0x21dde00c830>, 'Connection to mephi.ru timed out. (connect timeout=10)'))
+2026-04-10 17:04:17,162 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Woman (website)
+2026-04-10 17:04:18,407 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.woman.ru
+2026-04-10 17:04:18,408 - collect_articles.src.config.logging - INFO - Обрабатываем источник: New York Times (website)
+2026-04-10 17:04:19,432 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.nytimes.com
+2026-04-10 17:04:19,433 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Wired RSS (rss)
+2026-04-10 17:04:19,748 - collect_articles.src.config.logging - INFO - Собрано 50 ссылок из RSS: https://www.wired.com/feed/rss
+2026-04-10 17:04:19,749 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Medium Tech (rss)
+2026-04-10 17:04:20,004 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок из RSS: https://medium.com/tag/technology/feed
+2026-04-10 17:04:20,004 - collect_articles.src.config.logging - INFO - Обрабатываем источник: The Guardian (website)
+2026-04-10 17:04:21,578 - collect_articles.src.config.logging - INFO - Собрано 0 ссылок с сайта: https://www.theguardian.com
+2026-04-10 17:04:21,580 - collect_articles.src.config.logging - INFO - Обрабатываем источник: BBC News (website)
+2026-04-10 17:04:23,642 - collect_articles.src.config.logging - INFO - Собрано 1 ссылок с сайта: https://www.bbc.com/news
+2026-04-10 17:04:23,643 - collect_articles.src.config.logging - INFO - Обрабатываем источник: Habr RSS (rss)
+2026-04-10 17:04:24,687 - collect_articles.src.config.logging - INFO - Собрано 40 ссылок из RSS: https://habr.com/ru/rss/all/
+2026-04-10 17:04:24,687 - collect_articles.src.config.logging - INFO - Обрабатываем источник: TechCrunch RSS (rss)
+2026-04-10 17:04:25,010 - collect_articles.src.config.logging - INFO - Собрано 20 ссылок из RSS: https://techcrunch.com/feed/
+2026-04-10 17:04:25,011 - collect_articles.src.config.logging - INFO - Всего собрано 111 ссылок из 9 источников
+2026-04-10 17:04:25,011 - collect_articles.src.config.logging - INFO - Фильтруем дубликаты...
+2026-04-10 17:04:25,136 - collect_articles.src.config.logging - INFO - После фильтрации осталось 111 новых ссылок
+2026-04-10 17:04:25,137 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/aventon-current-adv-electric-mountain-bike/
+2026-04-10 17:04:25,793 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/review/aventon-current-adv-electric-mountain-bike/
+2026-04-10 17:04:26,001 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/gallery/best-smart-shades-blinds-curtains/
+2026-04-10 17:04:26,338 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/gallery/best-smart-shades-blinds-curtains/
+2026-04-10 17:04:26,497 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/the-indie-news-queen-whos-not-done-pissing-off-the-powerful/
+2026-04-10 17:04:26,766 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/the-indie-news-queen-whos-not-done-pissing-off-the-powerful/
+2026-04-10 17:04:26,909 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/ai-podcasters-really-want-to-tell-you-how-to-keep-a-man-happy/
+2026-04-10 17:04:27,174 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/ai-podcasters-really-want-to-tell-you-how-to-keep-a-man-happy/
+2026-04-10 17:04:27,322 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/irrigreen-smart-irrigation-system-3-2026/
+2026-04-10 17:04:27,558 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/review/irrigreen-smart-irrigation-system-3-2026/
+2026-04-10 17:04:27,701 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/no-one-knows-where-us-vaccine-policy-goes-next/
+2026-04-10 17:04:27,939 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/no-one-knows-where-us-vaccine-policy-goes-next/
+2026-04-10 17:04:28,120 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/asus-rog-cetra/
+2026-04-10 17:04:28,335 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/review/asus-rog-cetra/
+2026-04-10 17:04:28,477 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/metas-new-ai-asked-for-my-raw-health-data-and-gave-me-terrible-advice/
+2026-04-10 17:04:28,712 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/metas-new-ai-asked-for-my-raw-health-data-and-gave-me-terrible-advice/
+2026-04-10 17:04:28,864 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/how-and-when-to-watch-the-artemis-ii-missions-return-to-earth/
+2026-04-10 17:04:29,171 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/how-and-when-to-watch-the-artemis-ii-missions-return-to-earth/
+2026-04-10 17:04:29,297 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/surfshark-coupon/
+2026-04-10 17:04:29,561 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/surfshark-coupon/
+2026-04-10 17:04:29,719 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/naturepedic-promo-code/
+2026-04-10 17:04:30,024 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/naturepedic-promo-code/
+2026-04-10 17:04:30,153 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/sephora-promo-code/
+2026-04-10 17:04:30,439 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/sephora-promo-code/
+2026-04-10 17:04:30,580 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/hungryroot-promo-code/
+2026-04-10 17:04:30,857 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/hungryroot-promo-code/
+2026-04-10 17:04:31,019 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/govee-discount-code/
+2026-04-10 17:04:31,416 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/govee-discount-code/
+2026-04-10 17:04:31,542 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/top-walmart-promo-codes/
+2026-04-10 17:04:31,854 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/top-walmart-promo-codes/
+2026-04-10 17:04:31,998 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/we-vibe-discount-code/
+2026-04-10 17:04:32,322 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/we-vibe-discount-code/
+2026-04-10 17:04:32,452 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/nomad-discount-code/
+2026-04-10 17:04:32,699 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/nomad-discount-code/
+2026-04-10 17:04:32,840 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/instacart-promo/code/
+2026-04-10 17:04:33,149 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/instacart-promo/code/
+2026-04-10 17:04:33,301 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/sealy-promo-code/
+2026-04-10 17:04:33,633 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/sealy-promo-code/
+2026-04-10 17:04:33,803 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/vivid-seats-promo-code/
+2026-04-10 17:04:34,110 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/vivid-seats-promo-code/
+2026-04-10 17:04:34,262 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/factor-promo-code/
+2026-04-10 17:04:34,598 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/factor-promo-code/
+2026-04-10 17:04:34,758 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/
+2026-04-10 17:04:35,126 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/
+2026-04-10 17:04:35,281 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/made-in-china-inside-chinas-selective-war-on-the-scam-economy/
+2026-04-10 17:04:35,643 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/made-in-china-inside-chinas-selective-war-on-the-scam-economy/
+2026-04-10 17:04:35,790 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/black-forest-labs-ai-image-generation/
+2026-04-10 17:04:36,087 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/black-forest-labs-ai-image-generation/
+2026-04-10 17:04:36,220 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/dji-mic-mini-deal-426/
+2026-04-10 17:04:36,479 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/dji-mic-mini-deal-426/
+2026-04-10 17:04:36,634 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/john-deere-is-paying-farmers-99-million-for-allegedly-monopolizing-repair/
+2026-04-10 17:04:36,917 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/john-deere-is-paying-farmers-99-million-for-allegedly-monopolizing-repair/
+2026-04-10 17:04:37,083 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/maga-media-seems-to-have-hit-its-breaking-point-over-iran/
+2026-04-10 17:04:37,367 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/maga-media-seems-to-have-hit-its-breaking-point-over-iran/
+2026-04-10 17:04:37,515 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/the-fbi-didnt-answer-texts-from-minnesota-investigators-for-days-after-renee-goods-killing/
+2026-04-10 17:04:37,824 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/the-fbi-didnt-answer-texts-from-minnesota-investigators-for-days-after-renee-goods-killing/
+2026-04-10 17:04:37,994 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/inside-the-pro-iran-meme-machine-trolling-trump-with-ai-lego-cartoons/
+2026-04-10 17:04:38,275 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/inside-the-pro-iran-meme-machine-trolling-trump-with-ai-lego-cartoons/
+2026-04-10 17:04:38,434 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/ridge-wallet/
+2026-04-10 17:04:38,728 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/review/ridge-wallet/
+2026-04-10 17:04:38,881 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/fi-mini-for-cats/
+2026-04-10 17:04:39,248 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/review/fi-mini-for-cats/
+2026-04-10 17:04:39,408 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/how-meta-cafeteria-workers-rallied-to-take-on-ice/
+2026-04-10 17:04:39,661 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/how-meta-cafeteria-workers-rallied-to-take-on-ice/
+2026-04-10 17:04:39,820 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/netflix-love-is-blind-brandon-riegg-on-why-so-many-men-on-dating-shows-are-terrible/
+2026-04-10 17:04:40,096 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/netflix-love-is-blind-brandon-riegg-on-why-so-many-men-on-dating-shows-are-terrible/
+2026-04-10 17:04:40,244 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/political-campaign-security-spending/
+2026-04-10 17:04:40,505 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/political-campaign-security-spending/
+2026-04-10 17:04:40,660 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/review/tcl-nxtvision-2025/
+2026-04-10 17:04:40,998 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/review/tcl-nxtvision-2025/
+2026-04-10 17:04:41,159 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/this-ai-button-wearable-from-ex-apple-engineers-looks-like-an-ipod-shuffle/
+2026-04-10 17:04:41,443 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/this-ai-button-wearable-from-ex-apple-engineers-looks-like-an-ipod-shuffle/
+2026-04-10 17:04:41,587 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/artemis-ii-astronauts-witnessed-6-meteorites-collide-with-the-moon/
+2026-04-10 17:04:41,943 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/artemis-ii-astronauts-witnessed-6-meteorites-collide-with-the-moon/
+2026-04-10 17:04:42,099 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/google-workspace-promo-code/
+2026-04-10 17:04:42,386 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/google-workspace-promo-code/
+2026-04-10 17:04:42,521 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/lg-promo-code/
+2026-04-10 17:04:42,819 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/lg-promo-code/
+2026-04-10 17:04:43,011 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/nzxt-discount-code/
+2026-04-10 17:04:43,358 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/nzxt-discount-code/
+2026-04-10 17:04:43,509 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/canon-promo-code/
+2026-04-10 17:04:43,772 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/canon-promo-code/
+2026-04-10 17:04:43,928 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/vimeo-promo-code/
+2026-04-10 17:04:44,239 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/vimeo-promo-code/
+2026-04-10 17:04:44,387 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/medicube-coupon-code/
+2026-04-10 17:04:44,731 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/medicube-coupon-code/
+2026-04-10 17:04:44,892 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/paramount-plus-coupon-code/
+2026-04-10 17:04:45,187 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/paramount-plus-coupon-code/
+2026-04-10 17:04:45,329 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/turbotax-coupon/
+2026-04-10 17:04:45,603 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/turbotax-coupon/
+2026-04-10 17:04:45,766 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/dell-coupon-code/
+2026-04-10 17:04:46,091 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/dell-coupon-code/
+2026-04-10 17:04:46,239 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/peacock-promo-code/
+2026-04-10 17:04:46,526 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/peacock-promo-code/
+2026-04-10 17:04:46,674 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/nordvpn-coupon/
+2026-04-10 17:04:46,977 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/nordvpn-coupon/
+2026-04-10 17:04:47,134 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/brooks-promo-code/
+2026-04-10 17:04:47,460 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/brooks-promo-code/
+2026-04-10 17:04:47,601 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.wired.com/story/att-promo-code/
+2026-04-10 17:04:47,911 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.wired.com/story/att-promo-code/
+2026-04-10 17:04:48,063 - collect_articles.src.config.logging - INFO - Парсим статью: https://www.bbc.com/future/article/20260128-how-to-make-google-put-trusted-sources-up-top-when-you-search
+2026-04-10 17:04:49,474 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://www.bbc.com/future/article/20260128-how-to-make-google-put-trusted-sources-up-top-when-you-search
+2026-04-10 17:04:49,636 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/kts/articles/1021976/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021976
+2026-04-10 17:04:50,746 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/kts/articles/1021976/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021976
+2026-04-10 17:04:50,928 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021974/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021974
+2026-04-10 17:04:51,454 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021974/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021974
+2026-04-10 17:04:51,702 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021512/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021512
+2026-04-10 17:04:53,083 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021512/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021512
+2026-04-10 17:04:53,259 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/simpleone/articles/1021964/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021964
+2026-04-10 17:04:53,719 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/simpleone/articles/1021964/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021964
+2026-04-10 17:04:53,883 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/contentai/articles/1021880/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021880
+2026-04-10 17:04:54,523 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/contentai/articles/1021880/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021880
+2026-04-10 17:04:54,688 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/990396/?utm_source=habrahabr&utm_medium=rss&utm_campaign=990396
+2026-04-10 17:04:55,041 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/990396/?utm_source=habrahabr&utm_medium=rss&utm_campaign=990396
+2026-04-10 17:04:55,245 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/k2tech/articles/1020968/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1020968
+2026-04-10 17:04:55,687 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/k2tech/articles/1020968/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1020968
+2026-04-10 17:04:55,867 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/studyai/articles/1021954/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021954
+2026-04-10 17:04:56,293 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/studyai/articles/1021954/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021954
+2026-04-10 17:04:56,461 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/avito/articles/1021446/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021446
+2026-04-10 17:04:56,960 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/avito/articles/1021446/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021446
+2026-04-10 17:04:57,126 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021948/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021948
+2026-04-10 17:04:57,645 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021948/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021948
+2026-04-10 17:04:57,837 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/ru_mts/articles/1021376/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021376
+2026-04-10 17:04:58,629 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/ru_mts/articles/1021376/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021376
+2026-04-10 17:04:58,792 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021946/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021946
+2026-04-10 17:04:59,518 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021946/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021946
+2026-04-10 17:04:59,676 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/sminex_developer/articles/1021940/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021940
+2026-04-10 17:05:00,176 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/sminex_developer/articles/1021940/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021940
+2026-04-10 17:05:00,335 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/sourcecraft/articles/1021852/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021852
+2026-04-10 17:05:00,900 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/sourcecraft/articles/1021852/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021852
+2026-04-10 17:05:01,068 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/ruvds/articles/1021162/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021162
+2026-04-10 17:05:01,513 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/ruvds/articles/1021162/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021162
+2026-04-10 17:05:01,676 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021936/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021936
+2026-04-10 17:05:02,078 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021936/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021936
+2026-04-10 17:05:02,239 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021928/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021928
+2026-04-10 17:05:02,925 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021928/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021928
+2026-04-10 17:05:03,152 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/spacevm/articles/1021690/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021690
+2026-04-10 17:05:03,692 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/spacevm/articles/1021690/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021690
+2026-04-10 17:05:03,863 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/studyai/articles/1021924/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021924
+2026-04-10 17:05:04,366 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/studyai/articles/1021924/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021924
+2026-04-10 17:05:04,544 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021918/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021918
+2026-04-10 17:05:05,166 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021918/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021918
+2026-04-10 17:05:05,344 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021914/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021914
+2026-04-10 17:05:05,762 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021914/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021914
+2026-04-10 17:05:05,922 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021912/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021912
+2026-04-10 17:05:06,386 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021912/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021912
+2026-04-10 17:05:06,560 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/otpbank/articles/1021876/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021876
+2026-04-10 17:05:07,139 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/otpbank/articles/1021876/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021876
+2026-04-10 17:05:07,288 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021892/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021892
+2026-04-10 17:05:07,755 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021892/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021892
+2026-04-10 17:05:07,912 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021890/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021890
+2026-04-10 17:05:08,643 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021890/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021890
+2026-04-10 17:05:08,849 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/itarena/articles/1021878/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021878
+2026-04-10 17:05:09,632 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/itarena/articles/1021878/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021878
+2026-04-10 17:05:09,800 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021106/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021106
+2026-04-10 17:05:10,409 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021106/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021106
+2026-04-10 17:05:10,561 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/pik_digital/articles/1021872/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021872
+2026-04-10 17:05:11,464 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/pik_digital/articles/1021872/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021872
+2026-04-10 17:05:11,630 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/yadro/articles/1021660/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021660
+2026-04-10 17:05:12,415 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/yadro/articles/1021660/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021660
+2026-04-10 17:05:12,587 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021856/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021856
+2026-04-10 17:05:13,319 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021856/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021856
+2026-04-10 17:05:13,480 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/studyai/articles/1021844/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021844
+2026-04-10 17:05:14,309 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/studyai/articles/1021844/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021844
+2026-04-10 17:05:14,474 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/hostkey/articles/1021834/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021834
+2026-04-10 17:05:15,559 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/hostkey/articles/1021834/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021834
+2026-04-10 17:05:15,718 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021832/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021832
+2026-04-10 17:05:16,645 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021832/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021832
+2026-04-10 17:05:16,839 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/timeweb/articles/1021646/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021646
+2026-04-10 17:05:17,430 - collect_articles.src.config.logging - WARNING - Попытка 1: HTTP 403 для https://habr.com/ru/companies/timeweb/articles/1021646/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021646
+2026-04-10 17:05:17,585 - collect_articles.src.config.logging - WARNING - Попытка 2: HTTP 403 для https://habr.com/ru/companies/timeweb/articles/1021646/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021646
+2026-04-10 17:05:17,754 - collect_articles.src.config.logging - WARNING - Попытка 3: HTTP 403 для https://habr.com/ru/companies/timeweb/articles/1021646/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021646
+2026-04-10 17:05:17,755 - collect_articles.src.config.logging - WARNING - Ошибка парсинга: https://habr.com/ru/companies/timeweb/articles/1021646/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021646
+2026-04-10 17:05:17,756 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/x-com/articles/1021830/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021830
+2026-04-10 17:05:18,469 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/x-com/articles/1021830/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021830
+2026-04-10 17:05:18,632 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/bothub/articles/1021828/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021828
+2026-04-10 17:05:19,125 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/bothub/articles/1021828/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021828
+2026-04-10 17:05:19,289 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021824/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021824
+2026-04-10 17:05:19,912 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021824/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021824
+2026-04-10 17:05:20,074 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/articles/1021822/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021822
+2026-04-10 17:05:20,782 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/articles/1021822/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021822
+2026-04-10 17:05:20,953 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/gazprombank/articles/1021820/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021820
+2026-04-10 17:05:22,441 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/gazprombank/articles/1021820/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021820
+2026-04-10 17:05:22,614 - collect_articles.src.config.logging - INFO - Парсим статью: https://habr.com/ru/companies/veai/articles/1021816/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021816
+2026-04-10 17:05:23,129 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://habr.com/ru/companies/veai/articles/1021816/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1021816
+2026-04-10 17:05:23,299 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/
+2026-04-10 17:05:23,956 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/
+2026-04-10 17:05:24,051 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/10/psa-if-you-use-the-meta-ai-app-your-friends-will-find-out-and-it-will-be-embarrassing/
+2026-04-10 17:05:24,182 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/10/psa-if-you-use-the-meta-ai-app-your-friends-will-find-out-and-it-will-be-embarrassing/
+2026-04-10 17:05:24,263 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/10/snap-gets-closer-to-releasing-new-ai-glasses-after-years-long-hiatus/
+2026-04-10 17:05:24,387 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/10/snap-gets-closer-to-releasing-new-ai-glasses-after-years-long-hiatus/
+2026-04-10 17:05:24,466 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/florida-ag-to-probe-openai-alleging-possible-connection-to-fsu-shooting/
+2026-04-10 17:05:24,597 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/florida-ag-to-probe-openai-alleging-possible-connection-to-fsu-shooting/
+2026-04-10 17:05:24,671 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/
+2026-04-10 17:05:24,807 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/
+2026-04-10 17:05:24,890 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/eff-is-the-latest-organization-to-leave-x/
+2026-04-10 17:05:25,028 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/eff-is-the-latest-organization-to-leave-x/
+2026-04-10 17:05:25,119 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/what-founders-can-learn-from-anjunas-layoffs-and-recovery/
+2026-04-10 17:05:25,260 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/what-founders-can-learn-from-anjunas-layoffs-and-recovery/
+2026-04-10 17:05:25,351 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/volkswagen-drops-all-electric-id-4-in-the-us-in-pivot-back-to-gas-suvs/
+2026-04-10 17:05:25,486 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/volkswagen-drops-all-electric-id-4-in-the-us-in-pivot-back-to-gas-suvs/
+2026-04-10 17:05:25,566 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/
+2026-04-10 17:05:25,696 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/florida-ag-investigation-openai-chatgpt-shooting/
+2026-04-10 17:05:25,781 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/stubhub-to-pay-10m-to-settle-ftc-allegations-over-deceptive-ticket-pricing/
+2026-04-10 17:05:25,913 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/stubhub-to-pay-10m-to-settle-ftc-allegations-over-deceptive-ticket-pricing/
+2026-04-10 17:05:26,012 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/
+2026-04-10 17:05:26,148 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/
+2026-04-10 17:05:26,229 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/
+2026-04-10 17:05:26,361 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/
+2026-04-10 17:05:26,448 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/
+2026-04-10 17:05:26,592 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/is-anthropic-limiting-the-release-of-mythos-to-protect-the-internet-or-anthropic/
+2026-04-10 17:05:26,683 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/
+2026-04-10 17:05:26,806 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/
+2026-04-10 17:05:26,872 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/how-to-make-the-startup-battlefield-top-20-and-what-every-company-gets-regardless/
+2026-04-10 17:05:27,008 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/how-to-make-the-startup-battlefield-top-20-and-what-every-company-gets-regardless/
+2026-04-10 17:05:27,098 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/you-can-now-edit-your-instagram-comments/
+2026-04-10 17:05:27,304 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/you-can-now-edit-your-instagram-comments/
+2026-04-10 17:05:27,361 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/
+2026-04-10 17:05:27,492 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/
+2026-04-10 17:05:27,586 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/avecs-tinder-styled-email-app-allows-you-to-swipe-through-your-inbox/
+2026-04-10 17:05:27,725 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/avecs-tinder-styled-email-app-allows-you-to-swipe-through-your-inbox/
+2026-04-10 17:05:27,802 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/x-brings-back-voice-notes-to-x-chat/
+2026-04-10 17:05:27,938 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/x-brings-back-voice-notes-to-x-chat/
+2026-04-10 17:05:28,071 - collect_articles.src.config.logging - INFO - Парсим статью: https://techcrunch.com/2026/04/09/hacker-stole-700000-from-u-k-energy-company-by-redirecting-payment/
+2026-04-10 17:05:28,214 - collect_articles.src.config.logging - INFO - Успешно распарсено: https://techcrunch.com/2026/04/09/hacker-stole-700000-from-u-k-energy-company-by-redirecting-payment/
+2026-04-10 17:05:28,350 - collect_articles.src.config.logging - INFO - Сохраняем новые статьи в основную таблицу БД...
+2026-04-10 17:05:33,036 - collect_articles.src.config.logging - INFO - Сохранён пакет 1 (100 статей
+2026-04-10 17:05:33,523 - collect_articles.src.config.logging - INFO - Сохранён пакет 2 (10 статей
+2026-04-10 17:05:33,523 - collect_articles.src.config.logging - INFO - Успешно сохранено 110 новых статей в БД
+2026-04-10 17:05:33,524 - collect_articles.src.config.logging - INFO - Соединение с БД закрыто
