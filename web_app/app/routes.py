@@ -70,7 +70,6 @@ async def view_table(
     # Проверка авторизации
     check_auth(request)
 
-    # Сопоставление имени таблицы с моделью SQLAlchemy
     table_models = {
         "users": models.User,
         "articles": models.Article,
@@ -80,22 +79,37 @@ async def view_table(
         "cluster_articles": models.ClusterArticle,
         "data_sources": models.DataSource
     }
-    
+
+    display_names = {
+        "users": "Пользователи",
+        "articles": "Статьи",
+        "generated_articles": "Сгенерированные статьи",
+        "trend_analyses": "Анализы трендов",
+        "trend_clusters": "Кластеры трендов",
+        "cluster_articles": "Связи статей и кластеров",
+        "data_sources": "Источники данных"
+    }
+
     if table_name not in table_models:
         raise HTTPException(status_code=404, detail="Таблица не найдена")
 
     model = table_models[table_name]
     records = db.query(model).all()
 
+    # Преобразуем объекты SQLAlchemy в словари
+    records_data = [record.as_dict() for record in records]
+
     return templates.TemplateResponse(
         "table_view.html",
         {
             "request": request,
             "table_name": table_name,
-            "display_name": dict((t["name"], t["display"]) for t in table_models)[table_name],
-            "records": records
+            "display_name": display_names[table_name],
+            "records": records_data  # Передаём уже подготовленные словари
         }
     )
+
+
 
 
 @router.get("/dashboard", response_class=HTMLResponse)

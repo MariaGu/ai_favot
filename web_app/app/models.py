@@ -10,6 +10,13 @@ class User(Base):
     username = Column(String, unique=True, index=True)
     hashed_password = Column(String)
 
+    def as_dict(self):
+        return {
+            c.name: getattr(self, c.name)
+            for c in self.__table__.columns
+            if not c.name.startswith('_')
+        }
+
 class Article(Base):
     __tablename__ = "articles"
     id = Column(Integer, primary_key=True, index=True)
@@ -18,6 +25,13 @@ class Article(Base):
     publish_date = Column(DateTime, nullable=False)
     embedding = Column(ARRAY(Float))
     cluster_associations = relationship("ClusterArticle", back_populates="article")
+
+    def as_dict(self):
+        return {
+            c.name: getattr(self, c.name)
+            for c in self.__table__.columns
+            if not c.name.startswith('_')
+        }
 
 class GeneratedArticle(Base):
     __tablename__ = "generated_articles"
@@ -32,6 +46,13 @@ class GeneratedArticle(Base):
     embedding = Column(ARRAY(Float))
     cluster = relationship("TrendCluster", back_populates="generated_articles")
 
+    def as_dict(self):
+        return {
+            c.name: getattr(self, c.name)
+            for c in self.__table__.columns
+            if not c.name.startswith('_')
+        }
+
 class TrendAnalysis(Base):
     __tablename__ = "trend_analyses"
     id = Column(Integer, primary_key=True, index=True)
@@ -40,6 +61,13 @@ class TrendAnalysis(Base):
     created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     total_articles = Column(Integer, default=0)
     clusters = relationship("TrendCluster", back_populates="analysis")
+
+    def as_dict(self):
+        return {
+            c.name: getattr(self, c.name)
+            for c in self.__table__.columns
+            if not c.name.startswith('_')
+        }
 
 class TrendCluster(Base):
     __tablename__ = "trend_clusters"
@@ -54,6 +82,13 @@ class TrendCluster(Base):
     articles = relationship("ClusterArticle", back_populates="cluster")
     generated_articles = relationship("GeneratedArticle", back_populates="cluster")
 
+    def as_dict(self):
+        return {
+            c.name: getattr(self, c.name)
+            for c in self.__table__.columns
+            if not c.name.startswith('_')
+        }
+
 class ClusterArticle(Base):
     __tablename__ = "cluster_articles"
     id = Column(Integer, primary_key=True, index=True)
@@ -63,6 +98,13 @@ class ClusterArticle(Base):
     article_rank = Column(Integer)
     cluster = relationship("TrendCluster", back_populates="articles")
     article = relationship("Article", back_populates="cluster_associations")
+
+    def as_dict(self):
+        return {
+            c.name: getattr(self, c.name)
+            for c in self.__table__.columns
+            if not c.name.startswith('_')
+        }
 
 class DataSource(Base):
     __tablename__ = "data_sources"
@@ -76,10 +118,18 @@ class DataSource(Base):
     created_at = Column(DateTime, default=func.now())
     updated_at = Column(DateTime, default=func.now(), onupdate=func.now())
 
+
     # Ограничение CHECK для source_type
     __table_args__ = (
         CheckConstraint(
             "source_type IN ('website', 'rss')",
             name="data_sources_source_type_check"
         ),
-    )    
+    )   
+
+    def as_dict(self):
+        return {
+            c.name: getattr(self, c.name)
+            for c in self.__table__.columns
+            if not c.name.startswith('_')
+        } 

@@ -40,6 +40,7 @@
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             border-radius: 4px;
             overflow: hidden;
+            margin-top: 20px;
         }
         th, td {
             border: 1px solid #ddd;
@@ -50,6 +51,7 @@
             background-color: #e9ecef;
             font-weight: bold;
             text-transform: capitalize;
+            white-space: nowrap;
         }
         tr:nth-child(even) {
             background-color: #f8f9fa;
@@ -63,6 +65,105 @@
             color: #666;
             font-style: italic;
         }
+        /* Стили для длинных данных */
+        .data-cell {
+            max-width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        /* Стили для embedding */
+        .embedding-cell {
+            font-size: 0.8em;
+            color: #666;
+        }
+        /* Стили для дат */
+        .date-cell {
+            white-space: nowrap;
+        }
+
+
+        /* Стили для ячеек с длинным текстом */
+        .truncated {
+            max-width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: pointer;
+            position: relative;
+            pointer-events: auto !important;
+        }  
+        
+        .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* Всплывающее окно */
+        .popup {
+            display: none;
+            position: absolute;
+            background: white;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            padding: 15px;
+            z-index: 1000;
+            max-width: 600px;
+            max-height: 400px;
+            overflow-y: auto;
+            font-size: 14px;
+            line-height: 1.4;
+            border-radius: 4px;
+            white-space: pre-wrap; /* Сохраняем переносы строк */
+            word-wrap: break-word; /* Перенос длинных слов */
+            font-family: monospace; /* Моноширинный шрифт для лучшего отображения */
+        }
+
+        .popup.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 1000; /* Убедимся, что popup выше overlay */        }
+
+/* Фоновый затемнитель при открытом popup */
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        .overlay.active {
+            display: block;
+        }       
     </style>
 </head>
 <body>
@@ -75,9 +176,9 @@
         <table>
             <thead>
                 <tr>
-                    {% for key in records[0].__dict__.keys() %}
-                {% if not key.startswith('_') and key != 'password' and key != 'hashed_password' %}
-                    <th>{{ key }}</th>
+                    {% for field in records[0].keys() %}
+                {% if not field.startswith('_') %}
+                    <th>{{ field }}</th>
                 {% endif %}
             {% endfor %}
                 </tr>
@@ -85,20 +186,31 @@
             <tbody>
                 {% for record in records %}
                 <tr>
-                    {% for value in record.__dict__.values() %}
-                {% set key = record.__dict__.keys()[loop.index0] %}
-                {% if not key.startswith('_') and key != 'password' and key != 'hashed_password' %}
-                    <td>
-                        {% if value is none %}
-                            <em>NULL</em>
-                {% elif key == 'embedding' and value %}
-                    [{{ value|join(', ') }}]
-                {% elif key in ['created_at', 'publish_date', 'generated_at', 'start_date', 'end_date'] %}
-            {{ value.strftime('%Y-%m-%d %H:%M:%S') if value else 'N/A' }}
-                {% else %}
-            {{ value }}
-                {% endif %}
-            </td>
+            {% for field, value in record.items() %}
+                {% if not field.startswith('_') %}
+  <td class="
+    {% if field == 'embedding' %}embedding-cell
+    {% elif field in ['created_at', 'publish_date', 'generated_at', 'start_date', 'end_date'] %}date-cell
+    {% else %}truncated{% endif %}"
+    {% if value is not none and value is string and value|length > 50 and field not in ['created_at', 'publish_date', 'generated_at', 'start_date', 'end_date'] %}
+        data-full-content="{{ value | escape }}"
+    {% endif %}>
+    {% if value is none %}
+        <em>NULL</em>
+    {% elif field == 'embedding' and value %}
+        [{{ value|join(', ') | truncate(100) }}]
+    {% elif field in ['created_at', 'publish_date', 'generated_at', 'start_date', 'end_date'] %}
+        {% if value %}
+            {{ value.strftime('%Y-%m-%d %H:%M:%S') }}
+        {% else %}
+            N/A
+        {% endif %}
+    {% else %}
+        {{ value | escape | truncate(50) }}
+    {% endif %}
+</td>
+
+
                 {% endif %}
             {% endfor %}
                 </tr>
@@ -110,5 +222,37 @@
             В этой таблице пока нет данных.
         </div>
     {% endif %}
+
+<div class="overlay" id="overlay"></div>
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modal-text"></p>
+    </div>
+</div>
+
+
+<script>
+const modal = document.getElementById('modal');
+const modalText = document.getElementById('modal-text');
+
+document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('truncated') && e.target.getAttribute('data-full-content')) {
+        modalText.textContent = e.target.getAttribute('data-full-content');
+        modal.style.display = 'block';
+    }
+});
+
+document.querySelector('.close').onclick = function() {
+    modal.style.display = 'none';
+};
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
+};
+
+</script>
 </body>
 </html>
