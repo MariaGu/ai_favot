@@ -202,4 +202,8 @@ def main_pipeline():
         postgres_handler.close()
 
 if __name__ == "__main__":
-    main_pipeline()
+    while True:
+        logger.info("Запуск пайплайна...")
+        main_pipeline()
+        logger.info("Ожидание 1 часа до следующего запуска...")
+        time.sleep(3600)  # 3600 секунд = 1 час
