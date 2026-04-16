@@ -1,0 +1,21 @@
+2026-04-16 15:05:48,339 - src.config.logging - INFO - Подключение к PostgreSQL: postgresql://favot_user:favot_pass@localhost:5432/favot
+2026-04-16 15:06:02,125 - src.config.logging - INFO - Подключение к PostgreSQL: postgresql://favot_user:favot_pass@localhost:5432/favot
+2026-04-16 15:06:02,243 - src.config.logging - INFO - Все таблицы успешно созданы в PostgreSQL!
+2026-04-16 15:06:02,244 - src.config.logging - INFO - Запуск пайплайна...
+2026-04-16 15:06:02,244 - src.config.logging - INFO - Запуск приложения анализа трендов с PostgreSQL
+2026-04-16 15:06:02,244 - src.config.logging - INFO - Инициализация анализатора трендов...
+2026-04-16 15:06:02,249 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-16 15:06:02,249 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-04-16 15:06:06,065 - src.config.logging - INFO - Инициализирован TrendClusterAnalyzer с активной сессией PostgreSQL
+2026-04-16 15:06:06,065 - src.config.logging - INFO - Модель sentence-transformers загружена
+2026-04-16 15:06:06,228 - src.config.logging - INFO - Число статей для анализа: 442
+2026-04-16 15:08:51,973 - src.config.logging - INFO - Подключение к PostgreSQL: postgresql://favot_user:favot_pass@localhost:5432/favot
+2026-04-16 15:08:52,075 - src.config.logging - INFO - Все таблицы успешно созданы в PostgreSQL!
+2026-04-16 15:08:52,075 - src.config.logging - INFO - Запуск пайплайна...
+2026-04-16 15:08:52,075 - src.config.logging - INFO - Запуск приложения анализа трендов с PostgreSQL
+2026-04-16 15:08:52,075 - src.config.logging - INFO - Инициализация анализатора трендов...
+2026-04-16 15:08:52,075 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-16 15:08:52,091 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2026-04-16 15:08:55,634 - src.config.logging - INFO - Инициализирован TrendClusterAnalyzer с активной сессией PostgreSQL
+2026-04-16 15:08:55,634 - src.config.logging - INFO - Модель sentence-transformers загружена
+2026-04-16 15:08:55,791 - src.config.logging - INFO - Число статей для анализа: 442

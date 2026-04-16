@@ -1,11 +1,10 @@
-"""
-Главный файл запуска приложения.
-Создаёт таблицы БД и запускает анализ трендов.
-"""
+import time
 from src.analysis.trend_cluster_analyzer import TrendClusterAnalyzer
 from src.config.logging import logger
+from dotenv import load_dotenv
 
 def main():
+    load_dotenv()
     logger.info("Запуск приложения анализа трендов с PostgreSQL")
 
     logger.info("Инициализация анализатора трендов...")

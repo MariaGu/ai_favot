@@ -1,9 +1,12 @@
 from src.generation.article_generator import RAGArticleGenerator
 from src.config.logging import logger
 from src.database.init_db import SessionLocal
+import time
+from dotenv import load_dotenv
 
 def main():
     # Инициализация
+    load_dotenv()
     db_session = SessionLocal()
     generator = RAGArticleGenerator(db_session)
 

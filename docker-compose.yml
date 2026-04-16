@@ -1,31 +1,47 @@
 services:
-  postgres:
-    image: postgres:15
-    container_name: favot-postgres
+  db:
+    image: postgres:latest
     environment:
-      POSTGRES_DB: favot
-      POSTGRES_USER: favot_user
-      POSTGRES_PASSWORD: favot_pass
-      # Дополнительные настройки для лучшей производительности
-      PGDATA: /var/lib/postgresql/data/pgdata
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/pgdata  # новый путь
     ports:
       - "5432:5432"
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-      - ./sql/init_database.sql:/docker-entrypoint-initdb.d/init_database.sql
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U favot_user -d favot"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
     restart: unless-stopped
-    networks:
-      - favot-network
+
+  collect_articles:
+    image: mariagubina/collect_articles:latest
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  trend_analytics:
+    image: mariagubina/trend_analytics:latest
+    depends_on:
+      - collect_articles
+      - db
+    restart: unless-stopped
+
+  generate_article:
+    image: mariagubina/generate_article:latest
+    depends_on:
+      - collect_articles
+      - trend_analytics
+      - db
+    restart: unless-stopped
+
+  web_app:
+    image: mariagubina/web_app:latest
+    ports:
+      - "8000:8000"
+    depends_on:
+      - generate_article
+      - db 
+    env_file:
+      - .env
+    restart: unless-stopped
 
 volumes:
   postgres_data:
-    driver: local
-
-networks:
-  favot-network:
-    driver: bridge

@@ -3,7 +3,9 @@ from fastapi.staticfiles import StaticFiles
 from app.routes import router
 from app.database import Base, engine
 from app import models
+from dotenv import load_dotenv
 
+load_dotenv()
 # Создание таблиц
 Base.metadata.create_all(bind=engine)
 

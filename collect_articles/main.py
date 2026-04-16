@@ -1,4 +1,5 @@
 import os
+import time
 from src.collectors.link_collector import LinkCollector
 from src.db.source_handler import SourceHandler
 from src.db.duplicate_checker import DuplicateChecker
@@ -6,7 +7,7 @@ from src.parsers.article_parser import ArticleParser
 from src.embeddings.embedding_generator import EmbeddingGenerator
 from src.db.postgres_handler import PostgresHandler
 from src.config.logging import logger
-
+from dotenv import load_dotenv
 
 
 def ensure_tables_exist(postgres_handler):
@@ -114,9 +115,9 @@ def populate_empty_data_sources(postgres_handler):
 
 def main_pipeline():
     """Основной пайплайн: берёт источники из БД, собирает ссылки, парсит, сохраняет."""
-    # Инициализация компонентов
+    load_dotenv()
 
-    db_url = os.environ.get('DB_URL', 'postgresql://favot_user:favot_pass@localhost/favot')
+    db_url = os.environ.get('DB_URL')
     postgres_handler = PostgresHandler(db_url)
     source_handler = SourceHandler(postgres_handler.conn)
     duplicate_checker = DuplicateChecker(postgres_handler)

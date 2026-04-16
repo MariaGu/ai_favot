@@ -6,9 +6,10 @@ import os
 from src.config.logging import logger 
 
 # Загружаем переменные из .env файла
-load_dotenv()
+
 
 def get_database_url():
+    load_dotenv()
     """Получает URL базы данных из переменных окружения."""
     db_url = os.getenv("DB_URL")
     if not db_url:
